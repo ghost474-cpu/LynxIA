@@ -1,0 +1,2179 @@
+{
+  "intents": [
+    {
+      "question": "Qu'est-ce que la télémédecine ?",
+      "answers": [
+        "Consulter un médecin à distance via outils numériques.",
+        "Soins et consultations réalisées en ligne."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "que",
+        "la",
+        "télémédecine"
+      ]
+    },
+    {
+      "question": "Comment créer un chatbot ?",
+      "answers": [
+        "Tu peux créer un chatbot en utilisant des ressources fiables et en t'entraînant régulièrement.",
+        "Pour créer un chatbot, commence par des étapes simples et un plan."
+      ],
+      "keywords": [
+        "créer",
+        "un",
+        "chatbot"
+      ]
+    },
+    {
+      "question": "Quelles sont les meilleures pratiques pour la protection de la vie privée ?",
+      "answers": [
+        "Les meilleures pratiques incluent la régularité, la sécurité et la vérification des sources.",
+        "Adopte une stratégie claire, mesure les résultats et ajuste régulièrement."
+      ],
+      "keywords": [
+        "la",
+        "protection",
+        "de"
+      ]
+    },
+    {
+      "question": "Quelles sont les meilleures pratiques pour la santé mentale ?",
+      "answers": [
+        "Les meilleures pratiques incluent la régularité, la sécurité et la vérification des sources.",
+        "Adopte une stratégie claire, mesure les résultats et ajuste régulièrement."
+      ],
+      "keywords": [
+        "la",
+        "santé",
+        "mentale"
+      ]
+    },
+    {
+      "question": "Bonsoir",
+      "answers": [
+        "Bonsoir ! Comment s'est passée votre journée ?",
+        "Bonsoir ! Besoin d'aide ce soir ?"
+      ],
+      "keywords": [
+        "bonsoir"
+      ]
+    },
+    {
+      "question": "Quels outils pour cours en ligne ?",
+      "answers": [
+        "LMS, plateformes vidéo, forums et chatbots interactifs.",
+        "Moodle, Canvas, ou plateformes hébergées comme Coursera."
+      ],
+      "keywords": [
+        "quels",
+        "outils",
+        "pour",
+        "cours"
+      ]
+    },
+    {
+      "question": "Quelles sont les meilleures pratiques pour la sécurité ?",
+      "answers": [
+        "Les meilleures pratiques incluent la régularité, la sécurité et la vérification des sources.",
+        "Adopte une stratégie claire, mesure les résultats et ajuste régulièrement."
+      ],
+      "keywords": [
+        "la",
+        "sécurité"
+      ]
+    },
+    {
+      "question": "Pourquoi la protection de la vie privée est important ?",
+      "answers": [
+        "la protection de la vie privée est important parce que cela influence plusieurs aspects de la vie.",
+        "L'importance de la protection de la vie privée vient de son impact social et professionnel."
+      ],
+      "keywords": [
+        "la",
+        "protection",
+        "de"
+      ]
+    },
+    {
+      "question": "Avantages des chatbots ?",
+      "answers": [
+        "Disponibles 24/7, économie de coûts, traitement de grands volumes.",
+        "Réponse instantanée, collecte de données et automatisation."
+      ],
+      "keywords": [
+        "avantages",
+        "des",
+        "chatbots",
+        "?"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que le machine learning ?",
+      "answers": [
+        "C'est une méthode où les machines apprennent à partir de données.",
+        "Apprentissage automatique : entraînement de modèles sur des jeux de données."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "que",
+        "le",
+        "machine"
+      ]
+    },
+    {
+      "question": "Pourquoi la santé mentale est important ?",
+      "answers": [
+        "la santé mentale est important parce que cela influence plusieurs aspects de la vie.",
+        "L'importance de la santé mentale vient de son impact social et professionnel."
+      ],
+      "keywords": [
+        "la",
+        "santé",
+        "mentale"
+      ]
+    },
+    {
+      "question": "Quel langage pour un chatbot ?",
+      "answers": [
+        "Python et JavaScript sont très populaires pour les chatbots.",
+        "Python (Rasa), JS (Node.js) et plateformes comme Dialogflow."
+      ],
+      "keywords": [
+        "quel",
+        "langage",
+        "pour",
+        "un"
+      ]
+    },
+    {
+      "question": "Pourquoi le développement web est important ?",
+      "answers": [
+        "le développement web est important parce que cela influence plusieurs aspects de la vie.",
+        "L'importance de le développement web vient de son impact social et professionnel."
+      ],
+      "keywords": [
+        "le",
+        "développement",
+        "web"
+      ]
+    },
+    {
+      "question": "Qu'est-ce qu'un chatbot ?",
+      "answers": [
+        "Un chatbot est un programme qui simule une conversation humaine.",
+        "Un assistant virtuel capable de répondre automatiquement à des questions."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "qu'un",
+        "chatbot",
+        "?"
+      ]
+    },
+    {
+      "question": "Comment fonctionne un chatbot ?",
+      "answers": [
+        "Il analyse le texte avec du NLP et renvoie une réponse appropriée.",
+        "Grâce au traitement du langage naturel et parfois à l'apprentissage automatique."
+      ],
+      "keywords": [
+        "comment",
+        "fonctionne",
+        "un",
+        "chatbot"
+      ]
+    },
+    {
+      "question": "Quelles sont les meilleures pratiques pour l'apprentissage ?",
+      "answers": [
+        "Les meilleures pratiques incluent la régularité, la sécurité et la vérification des sources.",
+        "Adopte une stratégie claire, mesure les résultats et ajuste régulièrement."
+      ],
+      "keywords": [
+        "l'apprentissage"
+      ]
+    },
+    {
+      "question": "Donne-moi un fait intéressant",
+      "answers": [
+        "Les pieuvres ont trois cœurs et du sang bleu.",
+        "Le bambou peut pousser très rapidement, jusqu'à un mètre par jour."
+      ],
+      "keywords": [
+        "donne-moi",
+        "un",
+        "fait",
+        "intéressant"
+      ]
+    },
+    {
+      "question": "Bonjour",
+      "answers": [
+        "Bonjour ! Comment puis-je vous aider aujourd'hui ?",
+        "Salut ! Que puis-je faire pour vous ?"
+      ],
+      "keywords": [
+        "bonjour"
+      ]
+    },
+    {
+      "question": "Comment un chatbot aide-t-il en éducation ?",
+      "answers": [
+        "Il fournit des explications, quiz, et ressources pédagogiques.",
+        "Supports de cours, réponses aux questions et suivi des étudiants."
+      ],
+      "keywords": [
+        "comment",
+        "un",
+        "chatbot",
+        "aide-t-il"
+      ]
+    },
+    {
+      "question": "Raconte-moi une blague",
+      "answers": [
+        "Pourquoi les programmeurs confondent Noël et Halloween ? Parce que Oct 31 == Dec 25.",
+        "Pourquoi le site web est-il allé chez le docteur ? Trop de bugs !"
+      ],
+      "keywords": [
+        "raconte-moi",
+        "une",
+        "blague"
+      ]
+    },
+    {
+      "question": "Qui a écrit 'Le Petit Prince' ?",
+      "answers": [
+        "'Le Petit Prince' a été écrit par Antoine de Saint-Exupéry."
+      ],
+      "keywords": [
+        "qui",
+        "a",
+        "écrit",
+        "'le"
+      ]
+    },
+    {
+      "question": "Comment programmer en Python ?",
+      "answers": [
+        "Tu peux programmer en Python en utilisant des ressources fiables et en t'entraînant régulièrement.",
+        "Pour programmer en Python, commence par des étapes simples et un plan."
+      ],
+      "keywords": [
+        "programmer",
+        "en",
+        "Python"
+      ]
+    },
+    {
+      "question": "Comment héberger un bot ?",
+      "answers": [
+        "Sur un serveur ou via un service cloud (Heroku, AWS, etc.).",
+        "Vous pouvez utiliser un VPS ou une plateforme dédiée pour déployer le bot."
+      ],
+      "keywords": [
+        "comment",
+        "héberger",
+        "un",
+        "bot"
+      ]
+    },
+    {
+      "question": "Peux-tu apprendre ?",
+      "answers": [
+        "Certains chatbots peuvent apprendre à partir des données et interactions.",
+        "Oui, si le système est conçu pour l'apprentissage continu."
+      ],
+      "keywords": [
+        "peux-tu",
+        "apprendre",
+        "?"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que l'intelligence artificielle ?",
+      "answers": [
+        "L'IA permet aux machines d'accomplir des tâches intelligentes.",
+        "C'est une discipline de l'informatique visant à simuler des capacités humaines."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "que",
+        "l'intelligence",
+        "artificielle"
+      ]
+    },
+    {
+      "question": "Comment hacker légalement ?",
+      "answers": [
+        "Tu peux hacker légalement en utilisant des ressources fiables et en t'entraînant régulièrement.",
+        "Pour hacker légalement, commence par des étapes simples et un plan."
+      ],
+      "keywords": [
+        "hacker",
+        "légalement"
+      ]
+    },
+    {
+      "question": "Quelles sont les meilleures pratiques pour le développement web ?",
+      "answers": [
+        "Les meilleures pratiques incluent la régularité, la sécurité et la vérification des sources.",
+        "Adopte une stratégie claire, mesure les résultats et ajuste régulièrement."
+      ],
+      "keywords": [
+        "le",
+        "développement",
+        "web"
+      ]
+    },
+    {
+      "question": "C'est quoi une API ?",
+      "answers": [
+        "Une interface qui permet à des applications de communiquer entre elles.",
+        "Un point d'accès programmatique à une fonctionnalité ou donnée."
+      ],
+      "keywords": [
+        "c'est",
+        "quoi",
+        "une",
+        "api"
+      ]
+    },
+    {
+      "question": "Ça va ?",
+      "answers": [
+        "Je vais bien, merci. Et vous ?",
+        "Très bien, merci ! Et toi ?"
+      ],
+      "keywords": [
+        "ça",
+        "va",
+        "?"
+      ]
+    },
+    {
+      "question": "Donne-moi une citation célèbre",
+      "answers": [
+        "« Le savoir, c’est le pouvoir. » – Francis Bacon",
+        "« Connais-toi toi-même » – Socrate"
+      ],
+      "keywords": [
+        "donne-moi",
+        "une",
+        "citation",
+        "célèbre"
+      ]
+    },
+    {
+      "question": "Comment apprendre le français ?",
+      "answers": [
+        "Tu peux apprendre le français en utilisant des ressources fiables et en t'entraînant régulièrement.",
+        "Pour apprendre le français, commence par des étapes simples et un plan."
+      ],
+      "keywords": [
+        "apprendre",
+        "le",
+        "français"
+      ]
+    },
+    {
+      "question": "Combien de planètes dans le système solaire ?",
+      "answers": [
+        "Il y a huit planètes dans le système solaire."
+      ],
+      "keywords": [
+        "combien",
+        "de",
+        "planètes",
+        "dans"
+      ]
+    },
+    {
+      "question": "Peut-on demander un conseil médical à un chatbot ?",
+      "answers": [
+        "Il peut donner des informations générales mais ne remplace pas un médecin.",
+        "Pour des conseils précis, consultez un professionnel de santé."
+      ],
+      "keywords": [
+        "peut-on",
+        "demander",
+        "un",
+        "conseil"
+      ]
+    },
+    {
+      "question": "Quelle est la capitale de l'Espagne ?",
+      "answers": [
+        "La capitale de l'Espagne est Madrid."
+      ],
+      "keywords": [
+        "quelle",
+        "est",
+        "la",
+        "capitale"
+      ]
+    },
+    {
+      "question": "Comment protéger mes données ?",
+      "answers": [
+        "Tu peux protéger mes données en utilisant des ressources fiables et en t'entraînant régulièrement.",
+        "Pour protéger mes données, commence par des étapes simples et un plan."
+      ],
+      "keywords": [
+        "protéger",
+        "mes",
+        "données"
+      ]
+    },
+    {
+      "question": "Quelle est la capitale de la France ?",
+      "answers": [
+        "La capitale est Paris.",
+        "Paris est la capitale de la France."
+      ],
+      "keywords": [
+        "quelle",
+        "est",
+        "la",
+        "capitale"
+      ]
+    },
+    {
+      "question": "Pourquoi l'apprentissage est important ?",
+      "answers": [
+        "l'apprentissage est important parce que cela influence plusieurs aspects de la vie.",
+        "L'importance de l'apprentissage vient de son impact social et professionnel."
+      ],
+      "keywords": [
+        "l'apprentissage"
+      ]
+    },
+    {
+      "question": "Salut",
+      "answers": [
+        "Salut ! Content de te voir ici.",
+        "Bonjour ! Prêt à discuter ?"
+      ],
+      "keywords": [
+        "salut"
+      ]
+    },
+    {
+      "question": "Pourquoi la sécurité est important ?",
+      "answers": [
+        "la sécurité est important parce que cela influence plusieurs aspects de la vie.",
+        "L'importance de la sécurité vient de son impact social et professionnel."
+      ],
+      "keywords": [
+        "la",
+        "sécurité"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que la cybersécurité ?",
+      "answers": [
+        "Ensemble de mesures pour protéger les systèmes informatiques.",
+        "Protection contre les intrusions, malwares et fuites de données."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "que",
+        "la",
+        "cybersécurité"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que le cloud computing ?",
+      "answers": [
+        "Stockage et services accessibles via Internet.",
+        "Utiliser des serveurs distants pour héberger applications et données."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "que",
+        "le",
+        "cloud"
+      ]
+    },
+    {
+      "question": "Où utiliser un chatbot ?",
+      "answers": [
+        "E-commerce, support client, santé, éducation, banques, etc.",
+        "Dans tout service nécessitant réponses automatiques et FAQ."
+      ],
+      "keywords": [
+        "où",
+        "utiliser",
+        "un",
+        "chatbot"
+      ]
+    },
+    {
+      "question": "Qu'est-ce que le deep learning ?",
+      "answers": [
+        "C'est un sous-ensemble du ML basé sur les réseaux neuronaux profonds.",
+        "Technique d'apprentissage utilisant des couches successives pour extraire des caractéristiques."
+      ],
+      "keywords": [
+        "qu'est-ce",
+        "que",
+        "le",
+        "deep"
+      ]
+    },
+{
+   "question":"Quel est ton animal préféré ?",
+   "answer":"J’aime beaucoup les chats 🐱, ils sont calmes et intelligents.",
+   "keywords":["animal","chat","préféré"]
+},
+{
+   "question":"Tu préfères le café ou le thé ?",
+   "answer":"Le café pour bien commencer la journée ☕, mais le thé c’est relaxant aussi !",
+   "keywords":["boisson","café","thé"]
+},
+{
+   "question":"C’est quoi un algorithme ?",
+   "answer":"Un algorithme, c’est une suite d’étapes logiques pour résoudre un problème informatique.",
+   "keywords":["informatique","algorithme","programmation"]
+},
+{
+   "question":"Comment créer un site web ?",
+   "answer":"Il faut apprendre HTML, CSS et un peu de JavaScript pour commencer 🌐",
+   "keywords":["site web","html","css","javascript"]
+},
+{
+   "question":"Tu connais ChatGPT ?",
+   "answer":"Oui ! C’est un modèle d’intelligence artificielle créé pour discuter avec les humains 🤖",
+   "keywords":["chatgpt","ia","intelligence artificielle"]
+},
+{
+   "question":"Quel est le but de l’intelligence artificielle ?",
+   "answer":"Le but est de créer des machines capables de raisonner, d’apprendre et d’aider les humains.",
+   "keywords":["ia","technologie","apprentissage"]
+},
+{
+   "question":"Comment apprendre le français facilement ?",
+   "answer":"En écoutant, en lisant et en parlant tous les jours un peu 💬",
+   "keywords":["français","langue","apprentissage"]
+},
+{
+   "question":"Tu peux me raconter une blague ?",
+   "answer":"Pourquoi les programmeurs confondent Halloween et Noël ? Parce que OCT 31 = DEC 25 😄",
+   "keywords":["blague","humour","rire"]
+},
+{
+   "question":"Quel est ton sport préféré ?",
+   "answer":"Le football sans hésiter ⚽, mais j’aime bien le basket aussi !",
+   "keywords":["sport","football","basket"]
+},
+{
+   "question":"Tu connais Elon Musk ?",
+   "answer":"Oui, c’est l’entrepreneur derrière Tesla et SpaceX 🚀",
+   "keywords":["elon musk","tesla","spacex"]
+},
+{
+   "question":"C’est quoi le machine learning ?",
+   "answer":"C’est une méthode qui permet aux ordinateurs d’apprendre à partir des données.",
+   "keywords":["machine learning","apprentissage","ia"]
+},
+{
+   "question":"Comment rester motivé ?",
+   "answer":"Fixe-toi des objectifs simples et avance un pas à la fois 💪",
+   "keywords":["motivation","objectif","vie"]
+},
+{
+   "question":"Tu regardes des films ?",
+   "answer":"Pas vraiment, mais je peux te recommander quelques bons titres 🎬",
+   "keywords":["films","cinéma","divertissement"]
+},
+{
+   "question":"Quels sont les langages de programmation les plus connus ?",
+   "answer":"Python, JavaScript, Java, C++ et PHP sont parmi les plus populaires.",
+   "keywords":["programmation","langage","développement"]
+},
+{
+   "question":"Tu connais Linux ?",
+   "answer":"Oui ! C’est un système d’exploitation open-source très utilisé par les développeurs 🐧",
+   "keywords":["linux","système","informatique"]
+},
+{
+   "question":"Quelle est la capitale du Japon ?",
+   "answer":"C’est Tokyo 🇯🇵",
+   "keywords":["géographie","japon","capitale"]
+},
+{
+   "question":"Comment améliorer ma mémoire ?",
+   "answer":"Dors bien, mange sainement et fais travailler ton cerveau chaque jour 🧠",
+   "keywords":["mémoire","santé","cerveau"]
+},
+{
+   "question":"Pourquoi les gens aiment la musique ?",
+   "answer":"Parce qu’elle fait ressentir des émotions uniques 🎵",
+   "keywords":["musique","émotion","art"]
+},
+{
+   "question":"Tu peux m’aider à étudier ?",
+   "answer":"Bien sûr ! Donne-moi le sujet et je t’explique avec plaisir 📚",
+   "keywords":["étude","aide","apprentissage"]
+},
+{
+   "question":"Quel est le langage de programmation le plus facile ?",
+   "answer":"Python est souvent recommandé pour les débutants 🐍",
+   "keywords":["python","programmation","débutant"]
+},
+{
+   "question":"Comment s’appelle la planète la plus proche du Soleil ?",
+   "answer":"C’est Mercure 🪐",
+   "keywords":["planète","soleil","astronomie"]
+},
+{
+   "question":"Tu aimes les jeux vidéo ?",
+   "answer":"Oui, surtout les jeux d’aventure et de stratégie 🎮",
+   "keywords":["jeux vidéo","divertissement","loisir"]
+},
+{
+   "question":"C’est quoi la différence entre RAM et ROM ?",
+   "answer":"La RAM est la mémoire temporaire, la ROM contient les données permanentes 💾",
+   "keywords":["informatique","mémoire","ram","rom"]
+},
+{
+   "question":"Comment faire un bon CV ?",
+   "answer":"Sois clair, concis et montre tes compétences principales ✍️",
+   "keywords":["travail","cv","emploi"]
+},
+{
+   "question":"Quelle est la capitale de l’Algérie ?",
+   "answer":"C’est Alger 🇩🇿",
+   "keywords":["algérie","capitale","géographie"]
+},
+{
+   "question":"Comment apprendre l’anglais rapidement ?",
+   "answer":"Regarde des films, écoute des chansons et pratique tous les jours 🇬🇧",
+   "keywords":["anglais","langue","apprentissage"]
+},
+{
+   "question":"Qu’est-ce que le cloud computing ?",
+   "answer":"C’est le stockage et l’accès aux données sur Internet au lieu d’un disque dur ☁️",
+   "keywords":["informatique","cloud","technologie"]
+},
+{
+   "question":"Tu connais Roblox ?",
+   "answer":"Oui ! C’est une plateforme où tu peux créer et jouer à des jeux 🎮",
+   "keywords":["roblox","jeux","création"]
+},
+{
+   "question":"Quel est ton plat préféré ?",
+   "answer":"Les pâtes, simples et délicieuses 🍝",
+   "keywords":["plat","nourriture","repas"]
+},
+{
+   "question":"Pourquoi le ciel est bleu ?",
+   "answer":"À cause de la diffusion de la lumière dans l’atmosphère 🌤️",
+   "keywords":["science","ciel","physique"]
+},
+{
+   "question":"Comment rester concentré en étudiant ?",
+   "answer":"Fais des pauses, évite ton téléphone et crée un environnement calme 📚",
+   "keywords":["étude","concentration","motivation"]
+},
+{
+   "question":"Tu connais Minecraft ?",
+   "answer":"Oui, un jeu où on peut construire tout un monde avec des blocs 🧱",
+   "keywords":["minecraft","jeu","création"]
+},
+{
+   "question":"C’est quoi la différence entre HTTP et HTTPS ?",
+   "answer":"HTTPS est la version sécurisée de HTTP grâce au chiffrement 🔒",
+   "keywords":["internet","http","sécurité"]
+},
+{
+   "question":"Quel est l’animal le plus rapide du monde ?",
+   "answer":"Le guépard ! Il peut atteindre 110 km/h 🐆",
+   "keywords":["animaux","vitesse","nature"]
+},
+{
+   "question":"Tu aimes la nature ?",
+   "answer":"Oui, elle apaise et inspire 🌳",
+   "keywords":["nature","relaxation","vie"]
+},
+{
+   "question":"C’est quoi la différence entre un CPU et un GPU ?",
+   "answer":"Le CPU gère les calculs généraux, le GPU gère les graphiques 🎨",
+   "keywords":["processeur","carte graphique","informatique"]
+},
+{
+   "question":"Qui a inventé Internet ?",
+   "answer":"Des chercheurs américains dans les années 1960, notamment Tim Berners-Lee 🌐",
+   "keywords":["internet","histoire","technologie"]
+},
+{
+   "question":"Tu connais les planètes du système solaire ?",
+   "answer":"Oui : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune 🌍",
+   "keywords":["planètes","astronomie","science"]
+},
+{
+   "question":"C’est quoi un fichier .exe ?",
+   "answer":"C’est un fichier exécutable utilisé pour lancer un programme sous Windows 💻",
+   "keywords":["windows","informatique","fichier"]
+},
+{
+   "question":"Comment protéger mon ordinateur ?",
+   "answer":"Installe un antivirus et évite les sites suspects 🧑‍💻",
+   "keywords":["sécurité","ordinateur","virus"]
+},
+{
+   "question":"Tu connais les réseaux sociaux ?",
+   "answer":"Oui, comme Facebook, Instagram, TikTok et X 📱",
+   "keywords":["réseaux sociaux","internet","communication"]
+},
+{
+   "question":"C’est quoi le Big Data ?",
+   "answer":"C’est un ensemble massif de données que les entreprises analysent 📊",
+   "keywords":["big data","informatique","analyse"]
+},
+{
+   "question":"Tu peux m’expliquer le mot ‘open source’ ?",
+   "answer":"Ça veut dire que le code du logiciel est public et modifiable par tous 🔓",
+   "keywords":["open source","logiciel","programmation"]
+},
+{
+   "question":"Pourquoi les abeilles sont importantes ?",
+   "answer":"Elles pollinisent les plantes et permettent la production des fruits 🌻",
+   "keywords":["abeilles","nature","écologie"]
+},
+{
+   "question":"Tu connais Google ?",
+   "answer":"Bien sûr, c’est le moteur de recherche le plus connu 🌍",
+   "keywords":["google","internet","recherche"]
+},
+{
+   "question":"Quelle est la langue la plus parlée au monde ?",
+   "answer":"C’est le chinois mandarin 🈶",
+   "keywords":["langue","culture","monde"]
+},
+{
+   "question":"C’est quoi un robot ?",
+   "answer":"Une machine capable d’exécuter des tâches automatiquement 🤖",
+   "keywords":["robot","ia","technologie"]
+},
+{
+   "question":"Tu joues à des jeux mobiles ?",
+   "answer":"Pas vraiment, mais je connais les plus populaires 📱",
+   "keywords":["jeux mobiles","divertissement","app"]
+},
+{
+   "question":"Quelle est la capitale de la France ?",
+   "answer":"Paris bien sûr 🇫🇷",
+   "keywords":["paris","france","capitale"]
+},
+{
+   "question":"Tu connais YouTube ?",
+   "answer":"Oui, une plateforme pour regarder et partager des vidéos 🎥",
+   "keywords":["youtube","vidéo","internet"]
+},
+{
+   "question":"Comment s’appelle la planète la plus proche du Soleil ?",
+   "answer":"C’est Mercure 🪐",
+   "keywords":["planète","soleil","astronomie"]
+},
+{
+   "question":"Tu aimes les jeux vidéo ?",
+   "answer":"Oui, surtout les jeux d’aventure et de stratégie 🎮",
+   "keywords":["jeux vidéo","divertissement","loisir"]
+},
+{
+   "question":"C’est quoi la différence entre RAM et ROM ?",
+   "answer":"La RAM est la mémoire temporaire, la ROM contient les données permanentes 💾",
+   "keywords":["informatique","mémoire","ram","rom"]
+},
+{
+   "question":"Comment faire un bon CV ?",
+   "answer":"Sois clair, concis et montre tes compétences principales ✍️",
+   "keywords":["travail","cv","emploi"]
+},
+{
+   "question":"Quelle est la capitale de l’Algérie ?",
+   "answer":"C’est Alger 🇩🇿",
+   "keywords":["algérie","capitale","géographie"]
+},
+{
+   "question":"Comment apprendre l’anglais rapidement ?",
+   "answer":"Regarde des films, écoute des chansons et pratique tous les jours 🇬🇧",
+   "keywords":["anglais","langue","apprentissage"]
+},
+{
+   "question":"Qu’est-ce que le cloud computing ?",
+   "answer":"C’est le stockage et l’accès aux données sur Internet au lieu d’un disque dur ☁️",
+   "keywords":["informatique","cloud","technologie"]
+},
+{
+   "question":"Tu connais Roblox ?",
+   "answer":"Oui ! C’est une plateforme où tu peux créer et jouer à des jeux 🎮",
+   "keywords":["roblox","jeux","création"]
+},
+{
+   "question":"Quel est ton plat préféré ?",
+   "answer":"Les pâtes, simples et délicieuses 🍝",
+   "keywords":["plat","nourriture","repas"]
+},
+{
+   "question":"Pourquoi le ciel est bleu ?",
+   "answer":"À cause de la diffusion de la lumière dans l’atmosphère 🌤️",
+   "keywords":["science","ciel","physique"]
+},
+{
+   "question":"Comment rester concentré en étudiant ?",
+   "answer":"Fais des pauses, évite ton téléphone et crée un environnement calme 📚",
+   "keywords":["étude","concentration","motivation"]
+},
+{
+   "question":"Tu connais Minecraft ?",
+   "answer":"Oui, un jeu où on peut construire tout un monde avec des blocs 🧱",
+   "keywords":["minecraft","jeu","création"]
+},
+{
+   "question":"C’est quoi la différence entre HTTP et HTTPS ?",
+   "answer":"HTTPS est la version sécurisée de HTTP grâce au chiffrement 🔒",
+   "keywords":["internet","http","sécurité"]
+},
+{
+   "question":"Quel est l’animal le plus rapide du monde ?",
+   "answer":"Le guépard ! Il peut atteindre 110 km/h 🐆",
+   "keywords":["animaux","vitesse","nature"]
+},
+{
+   "question":"Tu aimes la nature ?",
+   "answer":"Oui, elle apaise et inspire 🌳",
+   "keywords":["nature","relaxation","vie"]
+},
+{
+   "question":"C’est quoi la différence entre un CPU et un GPU ?",
+   "answer":"Le CPU gère les calculs généraux, le GPU gère les graphiques 🎨",
+   "keywords":["processeur","carte graphique","informatique"]
+},
+{
+   "question":"Qui a inventé Internet ?",
+   "answer":"Des chercheurs américains dans les années 1960, notamment Tim Berners-Lee 🌐",
+   "keywords":["internet","histoire","technologie"]
+},
+{
+   "question":"Tu connais les planètes du système solaire ?",
+   "answer":"Oui : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune 🌍",
+   "keywords":["planètes","astronomie","science"]
+},
+{
+   "question":"C’est quoi un fichier .exe ?",
+   "answer":"C’est un fichier exécutable utilisé pour lancer un programme sous Windows 💻",
+   "keywords":["windows","informatique","fichier"]
+},
+{
+   "question":"Comment protéger mon ordinateur ?",
+   "answer":"Installe un antivirus et évite les sites suspects 🧑‍💻",
+   "keywords":["sécurité","ordinateur","virus"]
+},
+{
+   "question":"Tu connais les réseaux sociaux ?",
+   "answer":"Oui, comme Facebook, Instagram, TikTok et X 📱",
+   "keywords":["réseaux sociaux","internet","communication"]
+},
+{
+   "question":"C’est quoi le Big Data ?",
+   "answer":"C’est un ensemble massif de données que les entreprises analysent 📊",
+   "keywords":["big data","informatique","analyse"]
+},
+{
+   "question":"Tu peux m’expliquer le mot ‘open source’ ?",
+   "answer":"Ça veut dire que le code du logiciel est public et modifiable par tous 🔓",
+   "keywords":["open source","logiciel","programmation"]
+},
+{
+   "question":"Pourquoi les abeilles sont importantes ?",
+   "answer":"Elles pollinisent les plantes et permettent la production des fruits 🌻",
+   "keywords":["abeilles","nature","écologie"]
+},
+{
+   "question":"Tu connais Google ?",
+   "answer":"Bien sûr, c’est le moteur de recherche le plus connu 🌍",
+   "keywords":["google","internet","recherche"]
+},
+{
+   "question":"Quelle est la langue la plus parlée au monde ?",
+   "answer":"C’est le chinois mandarin 🈶",
+   "keywords":["langue","culture","monde"]
+},
+{
+   "question":"C’est quoi un robot ?",
+   "answer":"Une machine capable d’exécuter des tâches automatiquement 🤖",
+   "keywords":["robot","ia","technologie"]
+},
+{
+   "question":"Tu joues à des jeux mobiles ?",
+   "answer":"Pas vraiment, mais je connais les plus populaires 📱",
+   "keywords":["jeux mobiles","divertissement","app"]
+},
+{
+   "question":"Quelle est la capitale de la France ?",
+   "answer":"Paris bien sûr 🇫🇷",
+   "keywords":["paris","france","capitale"]
+},
+{
+   "question":"Tu connais YouTube ?",
+   "answer":"Oui, une plateforme pour regarder et partager des vidéos 🎥",
+   "keywords":["youtube","vidéo","internet"]
+},
+{
+      "question": "Qu'est-ce que l'intelligence artificielle ?",
+      "answer": "L'intelligence artificielle, ou IA, est la capacité d'une machine à imiter l'intelligence humaine 🤖.",
+      "keywords": ["IA", "intelligence", "artificielle"]
+    },
+    {
+      "question": "Pourquoi le ciel est bleu ?",
+      "answer": "Le ciel est bleu à cause de la diffusion de la lumière du soleil dans l'atmosphère 🌤️.",
+      "keywords": ["ciel", "bleu", "atmosphère"]
+    },
+    {
+      "question": "Quelle est la différence entre un site web et une application ?",
+      "answer": "Un site web s'utilise dans un navigateur, une application doit être installée sur ton appareil 📱.",
+      "keywords": ["site web", "application", "différence"]
+    },
+    {
+      "question": "Comment rester motivé ?",
+      "answer": "Fixe-toi de petits objectifs et félicite-toi à chaque progrès 💪.",
+      "keywords": ["motivation", "objectif", "énergie"]
+    },
+    {
+      "question": "C'est quoi le métavers ?",
+      "answer": "Le métavers est un monde virtuel immersif où les gens interagissent via des avatars 🌐.",
+      "keywords": ["métavers", "virtuel", "avatar"]
+    },
+    {
+      "question": "Comment fonctionne une voiture électrique ?",
+      "answer": "Elle fonctionne avec un moteur électrique alimenté par une batterie rechargeable 🔋.",
+      "keywords": ["voiture", "électrique", "batterie"]
+    },
+    {
+      "question": "Pourquoi dormir est important ?",
+      "answer": "Le sommeil aide ton corps et ton cerveau à récupérer 💭.",
+      "keywords": ["sommeil", "santé", "repos"]
+    },
+    {
+      "question": "Comment fonctionne un ordinateur ?",
+      "answer": "Un ordinateur traite les données grâce à un processeur et une mémoire 🖥️.",
+      "keywords": ["ordinateur", "processeur", "mémoire"]
+    },
+    {
+      "question": "Pourquoi les feuilles tombent en automne ?",
+      "answer": "Les arbres perdent leurs feuilles pour économiser de l'énergie avant l'hiver 🍂.",
+      "keywords": ["feuilles", "automne", "arbre"]
+    },
+    {
+      "question": "C'est quoi le Big Bang ?",
+      "answer": "Le Big Bang est l'explosion initiale qui a créé l'univers il y a 13,8 milliards d'années 🌌.",
+      "keywords": ["big bang", "univers", "création"]
+    },
+    {
+      "question": "Comment économiser de l'argent ?",
+      "answer": "Évite les achats impulsifs et note tes dépenses 💰.",
+      "keywords": ["argent", "économie", "budget"]
+    },
+    {
+      "question": "C'est quoi un virus informatique ?",
+      "answer": "Un virus informatique est un programme qui infecte ou détruit des fichiers 💻.",
+      "keywords": ["virus", "informatique", "sécurité"]
+    },
+    {
+      "question": "Pourquoi boire de l'eau ?",
+      "answer": "L'eau est essentielle pour ton corps, elle régule la température et nettoie les cellules 💧.",
+      "keywords": ["eau", "hydratation", "santé"]
+    },
+    {
+      "question": "Qu'est-ce que la méditation ?",
+      "answer": "La méditation aide à calmer l'esprit et à réduire le stress 🧘.",
+      "keywords": ["méditation", "calme", "stress"]
+    },
+    {
+      "question": "Comment apprendre rapidement ?",
+      "answer": "Fais des pauses, répète souvent et dors bien 🧠.",
+      "keywords": ["apprentissage", "mémoire", "étude"]
+    },
+    {
+      "question": "Pourquoi faire du sport ?",
+      "answer": "Le sport améliore la santé physique et mentale 🏃.",
+      "keywords": ["sport", "santé", "exercice"]
+    },
+    {
+      "question": "Comment fonctionne Internet ?",
+      "answer": "Internet est un réseau mondial d'ordinateurs connectés qui échangent des données 🌍.",
+      "keywords": ["internet", "réseau", "connexion"]
+    },
+    {
+      "question": "Comment fonctionne une IA comme toi ?",
+      "answer": "Je reconnais des modèles dans le langage et je réponds en conséquence 🤖.",
+      "keywords": ["IA", "chatbot", "intelligence"]
+    },
+    {
+      "question": "Pourquoi les chats ronronnent ?",
+      "answer": "Les chats ronronnent quand ils sont heureux ou pour se calmer 🐱.",
+      "keywords": ["chat", "ronron", "animal"]
+    },
+    {
+      "question": "Comment bien commencer la journée ?",
+      "answer": "Bois de l'eau, étire-toi et évite ton téléphone au réveil ☀️.",
+      "keywords": ["matin", "routine", "bien-être"]
+    }, {
+      "question": "Pourquoi la mer est salée ?",
+      "answer": "Parce que les roches des continents libèrent des minéraux qui finissent dans la mer 🌊.",
+      "keywords": ["mer", "sel", "océan"]
+    },
+    {
+      "question": "Comment fonctionne un téléphone portable ?",
+      "answer": "Il envoie et reçoit des ondes radio à travers les antennes pour communiquer 📱.",
+      "keywords": ["téléphone", "ondes", "communication"]
+    },
+    {
+      "question": "C'est quoi le Wi-Fi ?",
+      "answer": "Le Wi-Fi est une technologie qui permet de se connecter à Internet sans câble 📡.",
+      "keywords": ["wifi", "internet", "connexion"]
+    },
+    {
+      "question": "Pourquoi on bâille ?",
+      "answer": "Le bâillement aide à oxygéner le cerveau et à réguler la température corporelle 😮‍💨.",
+      "keywords": ["bâillement", "cerveau", "oxygène"]
+    },
+    {
+      "question": "Comment les avions volent ?",
+      "answer": "Grâce à la portance créée par la forme de leurs ailes et la vitesse de l'air ✈️.",
+      "keywords": ["avion", "vol", "aérodynamique"]
+    },
+    {
+      "question": "Pourquoi on a des saisons ?",
+      "answer": "À cause de l'inclinaison de la Terre et de sa rotation autour du Soleil ☀️.",
+      "keywords": ["saison", "terre", "soleil"]
+    },
+    {
+      "question": "C'est quoi un arc-en-ciel ?",
+      "answer": "C’est la lumière du soleil décomposée par les gouttes d’eau dans l’air 🌈.",
+      "keywords": ["arc-en-ciel", "lumière", "pluie"]
+    },
+    {
+      "question": "Pourquoi on rêve ?",
+      "answer": "Les rêves aident notre cerveau à traiter les émotions et les souvenirs 🌙.",
+      "keywords": ["rêve", "sommeil", "cerveau"]
+    },
+    {
+      "question": "Comment fonctionne une horloge ?",
+      "answer": "Une horloge mesure le temps grâce à un mécanisme régulier ou électronique ⏰.",
+      "keywords": ["horloge", "temps", "mécanisme"]
+    },
+    {
+      "question": "Pourquoi les volcans explosent ?",
+      "answer": "Parce que la pression du magma augmente sous la surface jusqu’à l’éruption 🌋.",
+      "keywords": ["volcan", "magma", "éruption"]
+    },
+    {
+      "question": "C'est quoi une étoile filante ?",
+      "answer": "C’est un petit morceau de roche qui brûle en entrant dans l’atmosphère ☄️.",
+      "keywords": ["étoile filante", "météore", "ciel"]
+    },
+    {
+      "question": "Pourquoi on mange ?",
+      "answer": "Pour fournir de l’énergie et des nutriments à notre corps 🍽️.",
+      "keywords": ["manger", "nutrition", "énergie"]
+    },
+    {
+      "question": "C'est quoi un écosystème ?",
+      "answer": "Un écosystème est un ensemble d’êtres vivants qui interagissent avec leur environnement 🌱.",
+      "keywords": ["écosystème", "nature", "environnement"]
+    },
+    {
+      "question": "Comment fonctionne la photosynthèse ?",
+      "answer": "Les plantes transforment la lumière du soleil en énergie grâce au dioxyde de carbone et à l’eau 🌿.",
+      "keywords": ["photosynthèse", "plante", "soleil"]
+    },
+    {
+      "question": "Pourquoi la lune change de forme ?",
+      "answer": "C’est à cause de sa position par rapport au Soleil et à la Terre 🌕.",
+      "keywords": ["lune", "phases", "terre"]
+    },
+    {
+      "question": "C'est quoi le code binaire ?",
+      "answer": "Le code binaire est un langage fait de 0 et 1 utilisé par les ordinateurs 💾.",
+      "keywords": ["binaire", "ordinateur", "langage"]
+    },
+    {
+      "question": "Pourquoi on pleure ?",
+      "answer": "Les larmes protègent nos yeux et expriment nos émotions 😢.",
+      "keywords": ["pleurer", "émotion", "larme"]
+    },
+    {
+      "question": "Comment fonctionne une ampoule ?",
+      "answer": "Une ampoule produit de la lumière quand un courant électrique passe à travers son filament 💡.",
+      "keywords": ["ampoule", "électricité", "lumière"]
+    },
+    {
+      "question": "Pourquoi les oiseaux chantent ?",
+      "answer": "Pour communiquer, attirer un partenaire ou défendre leur territoire 🐦.",
+      "keywords": ["oiseau", "chant", "nature"]
+    },
+    {
+      "question": "C'est quoi la gravité ?",
+      "answer": "La gravité est la force qui attire les objets vers le centre de la Terre 🌍.",
+      "keywords": ["gravité", "terre", "physique"]
+    },{
+      "question": "Pourquoi le ciel est bleu ?",
+      "answer": "Parce que la lumière du Soleil se diffuse dans l’atmosphère, et le bleu se disperse le plus 🌤️.",
+      "keywords": ["ciel", "bleu", "lumière"]
+    },
+    {
+      "question": "Comment fonctionne une voiture ?",
+      "answer": "Un moteur brûle du carburant pour créer de l’énergie qui fait tourner les roues 🚗.",
+      "keywords": ["voiture", "moteur", "énergie"]
+    },
+    {
+      "question": "C'est quoi l’électricité ?",
+      "answer": "C’est le mouvement des électrons à travers un conducteur ⚡.",
+      "keywords": ["électricité", "électrons", "courant"]
+    },
+    {
+      "question": "Pourquoi on dort ?",
+      "answer": "Le sommeil aide notre corps à récupérer et notre cerveau à organiser les souvenirs 💤.",
+      "keywords": ["sommeil", "dormir", "repos"]
+    },
+    {
+      "question": "Comment fonctionne Internet ?",
+      "answer": "Internet relie des millions d’ordinateurs entre eux pour échanger des données 🌐.",
+      "keywords": ["internet", "réseau", "ordinateur"]
+    },
+    {
+      "question": "Pourquoi les chats ronronnent ?",
+      "answer": "Ils ronronnent pour exprimer le bien-être ou parfois pour se calmer 🐱.",
+      "keywords": ["chat", "ronronner", "animal"]
+    },
+    {
+      "question": "C'est quoi une galaxie ?",
+      "answer": "Une galaxie est un immense ensemble d’étoiles, de gaz et de poussière dans l’univers 🌌.",
+      "keywords": ["galaxie", "étoile", "univers"]
+    },
+    {
+      "question": "Pourquoi les feuilles tombent en automne ?",
+      "answer": "Parce que les arbres économisent de l’énergie avant l’hiver 🍂.",
+      "keywords": ["automne", "feuille", "arbre"]
+    },
+    {
+      "question": "Comment fonctionne un ordinateur ?",
+      "answer": "Il traite des informations grâce à un processeur qui exécute des instructions 🖥️.",
+      "keywords": ["ordinateur", "processeur", "calcul"]
+    },
+    {
+      "question": "Pourquoi les poissons vivent dans l’eau ?",
+      "answer": "Parce qu’ils respirent l’oxygène dissous grâce à leurs branchies 🐟.",
+      "keywords": ["poisson", "eau", "respiration"]
+    },
+    {
+      "question": "C'est quoi une planète ?",
+      "answer": "C’est un corps céleste qui tourne autour d’une étoile comme le Soleil 🌍.",
+      "keywords": ["planète", "espace", "soleil"]
+    },
+    {
+      "question": "Pourquoi il pleut ?",
+      "answer": "Les nuages se remplissent d’eau, puis les gouttes tombent quand elles deviennent trop lourdes 🌧️.",
+      "keywords": ["pluie", "nuage", "eau"]
+    },
+    {
+      "question": "Comment fonctionne une montre ?",
+      "answer": "Une montre mesure le temps grâce à un mécanisme à ressort ou à quartz ⌚.",
+      "keywords": ["montre", "temps", "quartz"]
+    },
+    {
+      "question": "C'est quoi une application ?",
+      "answer": "C’est un programme conçu pour accomplir une tâche spécifique sur un appareil 💾.",
+      "keywords": ["application", "logiciel", "programme"]
+    },
+    {
+      "question": "Pourquoi les humains parlent ?",
+      "answer": "Le langage permet de communiquer et de partager des idées 💬.",
+      "keywords": ["langage", "humain", "parole"]
+    },
+    {
+      "question": "Comment pousse une plante ?",
+      "answer": "Elle pousse grâce à la lumière, à l’eau et aux nutriments du sol 🌱.",
+      "keywords": ["plante", "croissance", "soleil"]
+    },
+    {
+      "question": "C'est quoi un robot ?",
+      "answer": "Un robot est une machine programmée pour accomplir des tâches automatiquement 🤖.",
+      "keywords": ["robot", "machine", "technologie"]
+    },
+    {
+      "question": "Pourquoi la glace fond ?",
+      "answer": "Parce que la chaleur fait bouger les molécules plus vite jusqu’à devenir liquide ❄️➡️💧.",
+      "keywords": ["glace", "chaleur", "fusion"]
+    },
+    {
+      "question": "Comment les abeilles font le miel ?",
+      "answer": "Elles récoltent le nectar des fleurs et le transforment en miel dans la ruche 🍯.",
+      "keywords": ["abeille", "miel", "fleur"]
+    },
+    {
+      "question": "Pourquoi les nuages sont blancs ?",
+      "answer": "Parce que les gouttelettes d’eau diffusent toutes les couleurs de la lumière du Soleil ☁️.",
+      "keywords": ["nuage", "blanc", "lumière"]
+    },{
+      "question": "Pourquoi la mer est salée ?",
+      "answer": "Parce que les roches des continents libèrent des minéraux qui finissent dans l’océan 🌊.",
+      "keywords": ["mer", "salée", "océan"]
+    },
+    {
+      "question": "Comment vole un avion ?",
+      "answer": "Grâce à la portance créée par les ailes qui dévient l’air vers le bas ✈️.",
+      "keywords": ["avion", "voler", "aile"]
+    },
+    {
+      "question": "Pourquoi on bâille ?",
+      "answer": "Pour oxygéner le cerveau ou réguler la température du corps 😮.",
+      "keywords": ["bâiller", "oxygène", "cerveau"]
+    },
+    {
+      "question": "C'est quoi une étoile filante ?",
+      "answer": "C’est une petite météorite qui brûle en entrant dans l’atmosphère 🌠.",
+      "keywords": ["étoile filante", "météore", "atmosphère"]
+    },
+    {
+      "question": "Comment se forme un arc-en-ciel ?",
+      "answer": "La lumière du Soleil est décomposée par les gouttes d’eau 🌈.",
+      "keywords": ["arc-en-ciel", "lumière", "pluie"]
+    },
+    {
+      "question": "Pourquoi les oiseaux chantent ?",
+      "answer": "Pour communiquer, attirer un partenaire ou défendre leur territoire 🐦.",
+      "keywords": ["oiseau", "chanter", "territoire"]
+    },
+    {
+      "question": "C'est quoi une tornade ?",
+      "answer": "C’est une colonne d’air tournante très rapide entre le ciel et la terre 🌪️.",
+      "keywords": ["tornade", "vent", "orage"]
+    },
+    {
+      "question": "Pourquoi on pleure ?",
+      "answer": "Les larmes protègent les yeux et expriment les émotions 😢.",
+      "keywords": ["pleurer", "larmes", "émotion"]
+    },
+    {
+      "question": "Comment fonctionne un aimant ?",
+      "answer": "Il attire les métaux grâce à un champ magnétique 🧲.",
+      "keywords": ["aimant", "magnétique", "métal"]
+    },
+    {
+      "question": "Pourquoi le feu brûle ?",
+      "answer": "Parce qu’il s’agit d’une réaction chimique appelée combustion 🔥.",
+      "keywords": ["feu", "brûler", "combustion"]
+    },
+    {
+      "question": "C'est quoi un volcan ?",
+      "answer": "C’est une montagne qui libère du magma et des gaz chauds 🌋.",
+      "keywords": ["volcan", "magma", "lave"]
+    },
+    {
+      "question": "Pourquoi la Terre tourne ?",
+      "answer": "Parce qu’elle a gardé la vitesse acquise lors de sa formation 🌀.",
+      "keywords": ["terre", "rotation", "univers"]
+    },
+    {
+      "question": "Comment les oiseaux volent ?",
+      "answer": "Leurs ailes créent une portance grâce à la forme et la pression de l’air 🕊️.",
+      "keywords": ["oiseau", "voler", "aile"]
+    },
+    {
+      "question": "Pourquoi on a faim ?",
+      "answer": "Parce que notre corps signale un manque d’énergie 🍽️.",
+      "keywords": ["faim", "manger", "énergie"]
+    },
+    {
+      "question": "C'est quoi un virus ?",
+      "answer": "Un organisme microscopique qui a besoin d’une cellule pour se reproduire 🦠.",
+      "keywords": ["virus", "maladie", "microbe"]
+    },
+    {
+      "question": "Pourquoi le temps passe vite quand on s’amuse ?",
+      "answer": "Parce que le cerveau se concentre sur le plaisir, pas sur le temps 😄.",
+      "keywords": ["temps", "plaisir", "cerveau"]
+    },
+    {
+      "question": "Comment pousse un arbre ?",
+      "answer": "Il grandit en transformant la lumière du Soleil en énergie par la photosynthèse 🌳.",
+      "keywords": ["arbre", "pousse", "photosynthèse"]
+    },
+    {
+      "question": "C'est quoi la gravité ?",
+      "answer": "C’est la force qui attire les objets vers le centre de la Terre 🌍.",
+      "keywords": ["gravité", "poids", "terre"]
+    },
+    {
+      "question": "Pourquoi on transpire ?",
+      "answer": "Pour réguler la température du corps quand il fait chaud 💧.",
+      "keywords": ["transpiration", "chaleur", "corps"]
+    },
+    {
+      "question": "Comment fonctionne un téléphone ?",
+      "answer": "Il convertit la voix en signaux électriques ou numériques 📱.",
+      "keywords": ["téléphone", "signal", "voix"]
+    }, {
+      "question": "Qui a inventé Internet ?",
+      "answer": "Internet a été développé par plusieurs chercheurs, notamment Tim Berners-Lee pour le Web 🌐.",
+      "keywords": ["internet", "web", "tim berners-lee"]
+    },
+    {
+      "question": "C'est quoi un algorithme ?",
+      "answer": "C’est une suite d’instructions permettant de résoudre un problème étape par étape 🤖.",
+      "keywords": ["algorithme", "informatique", "calcul"]
+    },
+    {
+      "question": "Comment fonctionne une fusée ?",
+      "answer": "Elle propulse des gaz vers l’arrière pour avancer selon la loi d’action-réaction 🚀.",
+      "keywords": ["fusée", "propulsion", "espace"]
+    },
+    {
+      "question": "Quelle est la planète la plus proche du Soleil ?",
+      "answer": "C’est Mercure, la plus petite planète du système solaire ☀️.",
+      "keywords": ["mercure", "planète", "soleil"]
+    },
+    {
+      "question": "Pourquoi la Lune brille ?",
+      "answer": "Parce qu’elle reflète la lumière du Soleil 🌕.",
+      "keywords": ["lune", "soleil", "lumière"]
+    },
+    {
+      "question": "C'est quoi un trou noir ?",
+      "answer": "C’est une région de l’espace où la gravité est si forte que rien ne peut s’en échapper 🌀.",
+      "keywords": ["trou noir", "espace", "gravité"]
+    },
+    {
+      "question": "Qui a inventé l’électricité ?",
+      "answer": "L’électricité a été découverte par plusieurs savants, mais Benjamin Franklin a joué un grand rôle ⚡.",
+      "keywords": ["électricité", "franklin", "science"]
+    },
+    {
+      "question": "C'est quoi un ordinateur ?",
+      "answer": "Une machine capable de traiter des informations et d’exécuter des programmes 💻.",
+      "keywords": ["ordinateur", "machine", "informatique"]
+    },
+    {
+      "question": "Comment fonctionne une horloge ?",
+      "answer": "Elle mesure le temps grâce à un mécanisme régulier ou électronique ⏰.",
+      "keywords": ["horloge", "temps", "mécanisme"]
+    },
+    {
+      "question": "Pourquoi le ciel est bleu ?",
+      "answer": "À cause de la diffusion de la lumière bleue par les molécules d’air ☁️.",
+      "keywords": ["ciel", "bleu", "lumière"]
+    },
+    {
+      "question": "C'est quoi l’intelligence artificielle ?",
+      "answer": "C’est la capacité d’une machine à imiter l’intelligence humaine 🧠.",
+      "keywords": ["intelligence artificielle", "machine", "apprentissage"]
+    },
+    {
+      "question": "Comment apprend un robot ?",
+      "answer": "Grâce à des algorithmes d’apprentissage automatique qui analysent des données 📊.",
+      "keywords": ["robot", "machine learning", "données"]
+    },
+    {
+      "question": "Pourquoi l’eau gèle ?",
+      "answer": "Parce que les molécules d’eau se rapprochent quand la température baisse ❄️.",
+      "keywords": ["eau", "gel", "froid"]
+    },
+    {
+      "question": "Qui était Albert Einstein ?",
+      "answer": "Un physicien célèbre pour sa théorie de la relativité ⏳.",
+      "keywords": ["einstein", "relativité", "physique"]
+    },
+    {
+      "question": "Pourquoi les feuilles changent de couleur ?",
+      "answer": "Parce que la chlorophylle disparaît en automne 🍂.",
+      "keywords": ["feuilles", "automne", "chlorophylle"]
+    },
+    {
+      "question": "Comment fonctionne une lampe ?",
+      "answer": "Elle transforme l’électricité en lumière 💡.",
+      "keywords": ["lampe", "électricité", "lumière"]
+    },
+    {
+      "question": "C'est quoi un réseau social ?",
+      "answer": "Une plateforme qui permet aux gens de communiquer et partager du contenu en ligne 📱.",
+      "keywords": ["réseau social", "internet", "communication"]
+    },
+    {
+      "question": "Pourquoi on dort ?",
+      "answer": "Pour permettre au corps et au cerveau de récupérer 💤.",
+      "keywords": ["sommeil", "repos", "corps"]
+    },
+    {
+      "question": "Comment fonctionne un moteur ?",
+      "answer": "Il transforme l’énergie (essence ou électricité) en mouvement ⚙️.",
+      "keywords": ["moteur", "énergie", "mouvement"]
+    },
+    {
+      "question": "Qui a inventé la lumière électrique ?",
+      "answer": "Thomas Edison est célèbre pour avoir perfectionné l’ampoule 💡.",
+      "keywords": ["edison", "ampoule", "lumière"]
+    },
+    {
+      "question": "C'est quoi un satellite ?",
+      "answer": "Un objet qui tourne autour d’une planète pour observer ou transmettre des données 🛰️.",
+      "keywords": ["satellite", "orbite", "communication"]
+    },
+    {
+      "question": "Pourquoi la nuit est noire ?",
+      "answer": "Parce que le Soleil n’éclaire pas la partie de la Terre où tu te trouves 🌌.",
+      "keywords": ["nuit", "soleil", "terre"]
+    },
+    {
+      "question": "Comment fonctionne Internet ?",
+      "answer": "C’est un réseau mondial d’ordinateurs qui échangent des informations via des protocoles 📡.",
+      "keywords": ["internet", "réseau", "données"]
+    },
+    {
+      "question": "C'est quoi la programmation ?",
+      "answer": "C’est l’art d’écrire des instructions pour dire à un ordinateur quoi faire 💻.",
+      "keywords": ["programmation", "code", "informatique"]
+    },
+    {
+      "question": "Pourquoi les avions laissent des traces blanches ?",
+      "answer": "Parce que la vapeur d’eau de leurs moteurs se condense dans le froid ☁️.",
+      "keywords": ["avion", "traînée", "ciel"]
+    },{
+      "question": "Tu connais Roblox ?",
+      "answer": "Oui, c’est une plateforme où tu peux créer et jouer à des jeux faits par d’autres joueurs 🎮",
+      "keywords": ["roblox", "jeu", "gaming", "studio"]
+    },
+    {
+      "question": "C’est quoi Linux ?",
+      "answer": "Linux est un système d’exploitation libre et open source 💻",
+      "keywords": ["linux", "système", "open source"]
+    },
+    {
+      "question": "Comment apprendre à programmer ?",
+      "answer": "Commence par Python ou JavaScript, fais des petits projets, et pratique tous les jours 💡",
+      "keywords": ["programmation", "apprendre", "python", "javascript"]
+    },
+    {
+      "question": "Tu connais Elon Musk ?",
+      "answer": "Oui, c’est le fondateur de Tesla et SpaceX 🚀",
+      "keywords": ["elon", "musk", "tesla", "spacex"]
+    },
+    {
+      "question": "Qu’est-ce que l’intelligence artificielle ?",
+      "answer": "C’est une technologie qui permet aux machines de penser ou d’apprendre comme un humain 🤖",
+      "keywords": ["intelligence", "artificielle", "ia", "machine"]
+    },
+    {
+      "question": "Pourquoi la lune brille ?",
+      "answer": "Parce qu’elle reflète la lumière du soleil 🌕",
+      "keywords": ["lune", "brille", "soleil"]
+    },
+    {
+      "question": "C’est quoi le HTML ?",
+      "answer": "HTML est le langage utilisé pour construire les pages web 🌐",
+      "keywords": ["html", "web", "site", "langage"]
+    },
+    {
+      "question": "Tu connais Minecraft ?",
+      "answer": "Oui, un jeu de construction et d’aventure très populaire 🧱",
+      "keywords": ["minecraft", "jeu", "aventure", "construction"]
+    },
+    {
+      "question": "Comment devenir hacker éthique ?",
+      "answer": "Il faut apprendre le réseau, la sécurité et utiliser Linux 🛡️",
+      "keywords": ["hacker", "éthique", "cyber", "sécurité"]
+    },
+    {
+      "question": "Pourquoi le ciel est bleu ?",
+      "answer": "À cause de la diffusion de la lumière du soleil dans l’atmosphère ☁️",
+      "keywords": ["ciel", "bleu", "lumière", "atmosphère"]
+    },
+    {
+      "question": "C’est quoi un VPN ?",
+      "answer": "Un VPN protège ta connexion et cache ton adresse IP 🔒",
+      "keywords": ["vpn", "sécurité", "internet"]
+    },
+    {
+      "question": "Tu connais les NFT ?",
+      "answer": "Oui, ce sont des objets numériques uniques sur la blockchain 💠",
+      "keywords": ["nft", "blockchain", "crypto"]
+    },
+    {
+      "question": "C’est quoi le Metaverse ?",
+      "answer": "Un univers virtuel où les gens peuvent interagir et créer du contenu 🌐",
+      "keywords": ["metaverse", "virtuel", "monde", "internet"]
+    },
+    {
+      "question": "Pourquoi les chats ronronnent ?",
+      "answer": "Parce qu’ils sont contents ou veulent se calmer 🐱",
+      "keywords": ["chat", "ronronne", "animal"]
+    },
+    {
+      "question": "C’est quoi un GPU ?",
+      "answer": "C’est le processeur graphique utilisé pour afficher les images et les jeux 🎮",
+      "keywords": ["gpu", "carte graphique", "processeur", "ordinateur"]
+    },
+    {
+      "question": "Tu connais OpenAI ?",
+      "answer": "Oui, c’est l’entreprise derrière ChatGPT 🤖",
+      "keywords": ["openai", "chatgpt", "ia", "intelligence"]
+    },
+    {
+      "question": "C’est quoi un algorithme ?",
+      "answer": "C’est une suite d’étapes logiques pour résoudre un problème 🧠",
+      "keywords": ["algorithme", "calcul", "logique", "résolution"]
+    },
+    {
+      "question": "Pourquoi il faut dormir ?",
+      "answer": "Pour reposer le corps et le cerveau 😴",
+      "keywords": ["sommeil", "repos", "corps", "cerveau"]
+    },
+    {
+      "question": "Tu connais TikTok ?",
+      "answer": "Oui, une application pour partager des vidéos courtes 🎵",
+      "keywords": ["tiktok", "vidéo", "réseau social"]
+    },
+    {
+      "question": "C’est quoi la réalité augmentée ?",
+      "answer": "C’est quand on ajoute des éléments virtuels au monde réel 📱",
+      "keywords": ["réalité", "augmentée", "technologie"]
+    },
+    {
+      "question": "Pourquoi on utilise le Wi-Fi ?",
+      "answer": "Pour se connecter à Internet sans câble 📡",
+      "keywords": ["wifi", "internet", "connexion"]
+    },
+    {
+      "question": "C’est quoi un cookie sur Internet ?",
+      "answer": "C’est un petit fichier qui garde des infos sur ta navigation 🍪",
+      "keywords": ["cookie", "internet", "navigation"]
+    },
+    {
+      "question": "Comment faire un site web ?",
+      "answer": "Avec HTML, CSS et JavaScript ! 💻",
+      "keywords": ["site", "web", "html", "css", "javascript"]
+    },
+    {
+      "question": "Tu connais GitHub ?",
+      "answer": "Oui, une plateforme pour héberger et partager du code 👨‍💻",
+      "keywords": ["github", "code", "open source", "programmation"]
+    },
+    {
+      "question": "Pourquoi on dit bonjour ?",
+      "answer": "C’est une manière de saluer et montrer du respect 👋",
+      "keywords": ["bonjour", "salutation", "respect"]
+    },{
+      "question": "Pourquoi on dit que l’eau est essentielle à la vie ?",
+      "answer": "Parce qu’elle est nécessaire à toutes les formes de vie sur Terre 💧",
+      "keywords": ["eau", "vie", "terre", "essentielle"]
+    },
+    {
+      "question": "C’est quoi un processeur ?",
+      "answer": "C’est le cerveau de l’ordinateur, il exécute les instructions 🧠💻",
+      "keywords": ["processeur", "cpu", "ordinateur"]
+    },
+    {
+      "question": "Pourquoi les feuilles deviennent jaunes en automne ?",
+      "answer": "Parce que la chlorophylle disparaît à cause du froid 🍂",
+      "keywords": ["feuilles", "automne", "chlorophylle"]
+    },
+    {
+      "question": "Tu connais Discord ?",
+      "answer": "Oui, une application de chat très populaire chez les gamers 💬🎮",
+      "keywords": ["discord", "chat", "gamer", "serveur"]
+    },
+    {
+      "question": "C’est quoi une base de données ?",
+      "answer": "C’est un endroit où on stocke et organise des informations 📊",
+      "keywords": ["base de données", "sql", "informations"]
+    },
+    {
+      "question": "Tu sais ce que veut dire LOL ?",
+      "answer": "Oui, ça veut dire 'Laughing Out Loud' 😂",
+      "keywords": ["lol", "rire", "internet"]
+    },
+    {
+      "question": "Pourquoi on utilise des mots de passe ?",
+      "answer": "Pour protéger nos comptes et nos informations 🔐",
+      "keywords": ["mot de passe", "sécurité", "protection"]
+    },
+    {
+      "question": "C’est quoi une carte mère ?",
+      "answer": "C’est la pièce principale d’un ordinateur, qui relie tout ensemble 🧩",
+      "keywords": ["carte mère", "ordinateur", "hardware"]
+    },
+    {
+      "question": "Comment fonctionne une imprimante 3D ?",
+      "answer": "Elle crée des objets en ajoutant des couches de matière 🧱",
+      "keywords": ["imprimante 3d", "technologie", "fabrication"]
+    },
+    {
+      "question": "C’est quoi un serveur ?",
+      "answer": "C’est un ordinateur qui fournit des services à d’autres machines 🌐",
+      "keywords": ["serveur", "internet", "réseau"]
+    },
+    {
+      "question": "Tu connais Fortnite ?",
+      "answer": "Oui, un jeu Battle Royale très populaire 🕹️",
+      "keywords": ["fortnite", "jeu", "battle royale"]
+    },
+    {
+      "question": "Pourquoi on recycle ?",
+      "answer": "Pour protéger la planète et réduire les déchets 🌍♻️",
+      "keywords": ["recyclage", "planète", "écologie"]
+    },
+    {
+      "question": "C’est quoi un smartphone ?",
+      "answer": "C’est un téléphone intelligent avec Internet et des applications 📱",
+      "keywords": ["smartphone", "téléphone", "mobile"]
+    },
+    {
+      "question": "Tu connais le cloud ?",
+      "answer": "Oui, c’est le stockage de données sur Internet ☁️",
+      "keywords": ["cloud", "stockage", "internet"]
+    },
+    {
+      "question": "Pourquoi on met des mots-clés ?",
+      "answer": "Pour retrouver plus facilement une information 🔍",
+      "keywords": ["mot clé", "recherche", "indexation"]
+    },
+    {
+      "question": "C’est quoi une API ?",
+      "answer": "C’est une interface qui permet à deux programmes de communiquer 🔗",
+      "keywords": ["api", "programmation", "connexion"]
+    },
+    {
+      "question": "Tu connais le langage C++ ?",
+      "answer": "Oui, un langage de programmation rapide et puissant ⚙️",
+      "keywords": ["c++", "programmation", "langage"]
+    },
+    {
+      "question": "Pourquoi on utilise le Bluetooth ?",
+      "answer": "Pour connecter des appareils sans fil 📶",
+      "keywords": ["bluetooth", "connexion", "sans fil"]
+    },
+    {
+      "question": "C’est quoi un bot ?",
+      "answer": "Un programme qui exécute automatiquement des tâches 🤖",
+      "keywords": ["bot", "automatisation", "intelligence artificielle"]
+    },
+    {
+      "question": "Tu connais Netflix ?",
+      "answer": "Oui, une plateforme pour regarder des films et séries 📺",
+      "keywords": ["netflix", "films", "séries"]
+    },
+    {
+      "question": "Pourquoi on met des emojis ?",
+      "answer": "Pour exprimer nos émotions dans les messages 😊",
+      "keywords": ["emoji", "message", "émotion"]
+    },
+    {
+      "question": "C’est quoi un QR code ?",
+      "answer": "C’est un code que ton téléphone peut scanner pour ouvrir un lien 📷",
+      "keywords": ["qr code", "scanner", "lien"]
+    },
+    {
+      "question": "Tu connais ChatGPT ?",
+      "answer": "Oui, c’est moi 😄 un assistant d’intelligence artificielle !",
+      "keywords": ["chatgpt", "ia", "assistant", "openai"]
+    },
+    {
+      "question": "C’est quoi un fichier ZIP ?",
+      "answer": "C’est un fichier compressé pour réduire sa taille 📦",
+      "keywords": ["zip", "compression", "fichier"]
+    },
+    {
+      "question": "Pourquoi le soleil chauffe ?",
+      "answer": "Parce qu’il produit de l’énergie par fusion nucléaire ☀️",
+      "keywords": ["soleil", "chaleur", "énergie"]
+    },
+    {
+      "question": "Tu connais Wikipedia ?",
+      "answer": "Oui, un site où tout le monde peut partager du savoir 📚",
+      "keywords": ["wikipedia", "savoir", "information"]
+    },
+    {
+      "question": "C’est quoi une URL ?",
+      "answer": "C’est l’adresse d’un site web sur Internet 🌍",
+      "keywords": ["url", "adresse", "site web"]
+    },
+    {
+      "question": "Pourquoi les gens aiment les jeux vidéo ?",
+      "answer": "Parce qu’ils permettent de s’amuser, s’évader et défier d’autres joueurs 🎮",
+      "keywords": ["jeux vidéo", "divertissement", "plaisir"]
+    }, {
+      "question": "Pourquoi on existe ?",
+      "answer": "Grande question ! Chacun donne un sens à sa vie : aimer, apprendre, créer... 🌟",
+      "keywords": ["existence", "vie", "philosophie"]
+    },
+    {
+      "question": "Comment être heureux ?",
+      "answer": "En appréciant les petites choses et en vivant le moment présent 🌸",
+      "keywords": ["bonheur", "vie", "positif"]
+    },
+    {
+      "question": "Pourquoi les gens ont peur de l’inconnu ?",
+      "answer": "Parce que le cerveau préfère ce qu’il connaît. L’inconnu crée de l’incertitude 😨",
+      "keywords": ["peur", "inconnu", "psychologie"]
+    },
+    {
+      "question": "C’est quoi l’amour ?",
+      "answer": "Un sentiment fort de connexion, de confiance et d’émotion 💞",
+      "keywords": ["amour", "émotions", "relation"]
+    },
+    {
+      "question": "Pourquoi on rêve ?",
+      "answer": "Les rêves aident le cerveau à traiter nos émotions et nos souvenirs 🌙",
+      "keywords": ["rêves", "cerveau", "sommeil"]
+    },
+    {
+      "question": "C’est quoi la conscience ?",
+      "answer": "C’est la capacité de se rendre compte de soi et du monde 🌍",
+      "keywords": ["conscience", "philosophie", "esprit"]
+    },
+    {
+      "question": "Pourquoi on a besoin d’amis ?",
+      "answer": "Parce que les relations humaines sont essentielles au bien-être ❤️",
+      "keywords": ["amis", "relations", "soutien"]
+    },
+    {
+      "question": "Comment gérer la colère ?",
+      "answer": "Respire profondément, parle calmement et prends du recul 🧘‍♂️",
+      "keywords": ["colère", "émotions", "gestion"]
+    },
+    {
+      "question": "Pourquoi on se sent parfois seul ?",
+      "answer": "Parce que notre esprit cherche la connexion et l’attention des autres 🕊️",
+      "keywords": ["solitude", "sentiments", "émotions"]
+    },
+    {
+      "question": "C’est quoi la mort ?",
+      "answer": "Un mystère que chaque culture comprend différemment. Elle fait partie du cycle de la vie 🌅",
+      "keywords": ["mort", "vie", "philosophie"]
+    },
+    {
+      "question": "Pourquoi certaines personnes mentent ?",
+      "answer": "Par peur, par honte ou pour se protéger, même si ce n’est pas juste 😔",
+      "keywords": ["mensonge", "vérité", "psychologie"]
+    },
+    {
+      "question": "Comment avoir confiance en soi ?",
+      "answer": "En se connaissant, en s’acceptant et en osant essayer 💪",
+      "keywords": ["confiance", "développement personnel", "motivation"]
+    },
+    {
+      "question": "Pourquoi on vieillit ?",
+      "answer": "Parce que nos cellules se divisent et s’usent avec le temps ⏳",
+      "keywords": ["vieillissement", "science", "corps"]
+    },
+    {
+      "question": "C’est quoi l’intelligence ?",
+      "answer": "C’est la capacité d’apprendre, de comprendre et de s’adapter 🧠",
+      "keywords": ["intelligence", "cerveau", "esprit"]
+    },
+    {
+      "question": "Pourquoi certaines personnes réussissent plus que d’autres ?",
+      "answer": "Souvent à cause de la persévérance, de la chance et des opportunités 💼",
+      "keywords": ["réussite", "motivation", "travail"]
+    },
+    {
+      "question": "Comment être plus créatif ?",
+      "answer": "En observant le monde, en expérimentant et en s’autorisant à rêver 🎨",
+      "keywords": ["créativité", "inspiration", "imagination"]
+    },
+    {
+      "question": "Pourquoi on a des émotions ?",
+      "answer": "Elles nous aident à comprendre le monde et à communiquer avec les autres 💓",
+      "keywords": ["émotions", "sentiments", "psychologie"]
+    },
+    {
+      "question": "C’est quoi la liberté ?",
+      "answer": "C’est la possibilité de choisir et d’agir selon ses valeurs 🕊️",
+      "keywords": ["liberté", "philosophie", "choix"]
+    },
+    {
+      "question": "Pourquoi certaines personnes dépriment ?",
+      "answer": "Parce qu’elles vivent un déséquilibre émotionnel ou des difficultés intérieures 💧",
+      "keywords": ["dépression", "émotions", "psychologie"]
+    },
+    {
+      "question": "Comment se motiver chaque jour ?",
+      "answer": "En se fixant de petits objectifs et en célébrant chaque progrès 🌞",
+      "keywords": ["motivation", "objectif", "énergie"]
+    },
+    {
+      "question": "C’est quoi le bonheur selon toi ?",
+      "answer": "Un état de paix intérieure, pas juste une émotion passagère ☀️",
+      "keywords": ["bonheur", "philosophie", "vie"]
+    },
+    {
+      "question": "Pourquoi les gens aiment la musique ?",
+      "answer": "Parce qu’elle touche les émotions et raconte ce que les mots ne peuvent pas 🎶",
+      "keywords": ["musique", "émotions", "art"]
+    },
+    {
+      "question": "C’est quoi la curiosité ?",
+      "answer": "C’est le désir d’apprendre, de comprendre et de découvrir 💡",
+      "keywords": ["curiosité", "apprentissage", "intelligence"]
+    },
+    {
+      "question": "Pourquoi on tombe amoureux ?",
+      "answer": "Parce que notre cerveau libère des hormones qui créent un attachement ❤️‍🔥",
+      "keywords": ["amour", "chimie", "relation"]
+    },
+    {
+      "question": "C’est quoi la sagesse ?",
+      "answer": "C’est comprendre quand parler, quand agir, et quand simplement écouter 🌿",
+      "keywords": ["sagesse", "expérience", "philosophie"]
+    },
+    {
+      "question": "Comment vivre sans stress ?",
+      "answer": "En acceptant qu’on ne peut pas tout contrôler et en respirant profondément 🌤️",
+      "keywords": ["stress", "calme", "équilibre"]
+    },
+    {
+      "question": "Pourquoi le cerveau oublie ?",
+      "answer": "Pour faire de la place et garder seulement ce qui est utile 🧩",
+      "keywords": ["mémoire", "cerveau", "oubli"]
+    },
+    {
+      "question": "C’est quoi la différence entre intelligence et sagesse ?",
+      "answer": "L’intelligence, c’est savoir. La sagesse, c’est savoir bien utiliser ce savoir 🌙",
+      "keywords": ["intelligence", "sagesse", "connaissance"]
+    },
+    {
+      "question": "Pourquoi on rit ?",
+      "answer": "Parce que le rire libère du stress et renforce les liens sociaux 😄",
+      "keywords": ["rire", "bonheur", "émotions"]
+    }, {
+      "question": "C’est quoi une étoile ?",
+      "answer": "Une boule géante de gaz qui produit de la lumière et de la chaleur grâce à des réactions nucléaires ☀️",
+      "keywords": ["étoile", "espace", "science"]
+    },
+    {
+      "question": "Pourquoi le ciel est bleu ?",
+      "answer": "Parce que la lumière du Soleil est diffusée par l’atmosphère, et le bleu se disperse plus facilement 💙",
+      "keywords": ["ciel", "bleu", "atmosphère"]
+    },
+    {
+      "question": "C’est quoi un trou noir ?",
+      "answer": "Un objet céleste si dense que même la lumière ne peut pas s’en échapper 🌌",
+      "keywords": ["trou noir", "espace", "univers"]
+    },
+    {
+      "question": "Pourquoi la Terre tourne ?",
+      "answer": "Parce qu’elle a gardé le mouvement reçu à sa formation il y a des milliards d’années 🌍",
+      "keywords": ["terre", "rotation", "astronomie"]
+    },
+    {
+      "question": "C’est quoi la gravité ?",
+      "answer": "La force qui attire les objets les uns vers les autres, comme nous vers le sol 🪐",
+      "keywords": ["gravité", "physique", "terre"]
+    },
+    {
+      "question": "C’est quoi un robot ?",
+      "answer": "Une machine conçue pour accomplir des tâches automatiquement 🤖",
+      "keywords": ["robot", "technologie", "machine"]
+    },
+    {
+      "question": "Comment fonctionne un ordinateur ?",
+      "answer": "Il traite des informations en suivant des instructions précises appelées programmes 💻",
+      "keywords": ["ordinateur", "technologie", "informatique"]
+    },
+    {
+      "question": "C’est quoi l’intelligence artificielle ?",
+      "answer": "Une technologie qui permet aux machines d’apprendre et de réfléchir un peu comme un humain 🧠",
+      "keywords": ["intelligence artificielle", "IA", "technologie"]
+    },
+    {
+      "question": "Pourquoi on envoie des satellites ?",
+      "answer": "Pour observer la Terre, prévoir la météo, communiquer et explorer l’espace 🛰️",
+      "keywords": ["satellite", "espace", "communication"]
+    },
+    {
+      "question": "C’est quoi Internet ?",
+      "answer": "Un immense réseau qui relie des millions d’ordinateurs dans le monde 🌐",
+      "keywords": ["internet", "réseau", "technologie"]
+    },
+    {
+      "question": "Pourquoi il fait chaud en été ?",
+      "answer": "Parce que la Terre est inclinée et reçoit plus de soleil sur une partie du globe ☀️",
+      "keywords": ["été", "saison", "terre"]
+    },
+    {
+      "question": "C’est quoi le réchauffement climatique ?",
+      "answer": "L’augmentation de la température de la Terre à cause des activités humaines 🌡️",
+      "keywords": ["climat", "écologie", "environnement"]
+    },
+    {
+      "question": "Pourquoi les plantes sont vertes ?",
+      "answer": "Parce qu’elles contiennent de la chlorophylle, une molécule qui capte la lumière 🌿",
+      "keywords": ["plantes", "chlorophylle", "biologie"]
+    },
+    {
+      "question": "C’est quoi l’énergie solaire ?",
+      "answer": "Une énergie propre qui vient du Soleil et qu’on peut transformer en électricité ☀️⚡",
+      "keywords": ["énergie solaire", "écologie", "technologie"]
+    },
+    {
+      "question": "Pourquoi les avions volent ?",
+      "answer": "Grâce à la portance créée par leurs ailes et la poussée des moteurs ✈️",
+      "keywords": ["avion", "vol", "aérodynamique"]
+    },
+    {
+      "question": "C’est quoi un virus informatique ?",
+      "answer": "Un programme malveillant qui peut endommager ou voler des données 💾",
+      "keywords": ["virus", "informatique", "cybersécurité"]
+    },
+    {
+      "question": "Pourquoi la Lune change de forme ?",
+      "answer": "Parce qu’on voit différentes parties éclairées par le Soleil selon sa position 🌙",
+      "keywords": ["lune", "phases", "astronomie"]
+    },
+    {
+      "question": "C’est quoi un volcan ?",
+      "answer": "Une ouverture dans la Terre d’où sortent de la lave, des gaz et des cendres 🌋",
+      "keywords": ["volcan", "terre", "géologie"]
+    },
+    {
+      "question": "Pourquoi les océans sont salés ?",
+      "answer": "À cause des minéraux et sels dissous apportés par les rivières 🌊",
+      "keywords": ["océan", "sel", "eau"]
+    },
+    {
+      "question": "C’est quoi une galaxie ?",
+      "answer": "Un ensemble géant d’étoiles, de gaz et de poussières liés par la gravité 🌌",
+      "keywords": ["galaxie", "univers", "étoiles"]
+    },
+    {
+      "question": "C’est quoi le Big Bang ?",
+      "answer": "La théorie selon laquelle l’univers est né d’une énorme explosion il y a 13,8 milliards d’années 💥",
+      "keywords": ["big bang", "univers", "cosmos"]
+    },
+    {
+      "question": "Pourquoi on voit des éclairs ?",
+      "answer": "Parce qu’il y a une décharge électrique entre les nuages et la Terre ⚡",
+      "keywords": ["éclairs", "orage", "électricité"]
+    },
+    {
+      "question": "C’est quoi l’énergie nucléaire ?",
+      "answer": "L’énergie libérée par les réactions dans le noyau des atomes ☢️",
+      "keywords": ["nucléaire", "énergie", "science"]
+    },
+    {
+      "question": "Pourquoi le plastique pollue ?",
+      "answer": "Parce qu’il met des centaines d’années à se décomposer et nuit aux animaux 🌍",
+      "keywords": ["plastique", "pollution", "écologie"]
+    },
+    {
+      "question": "C’est quoi une cellule ?",
+      "answer": "C’est la plus petite unité vivante du corps, comme une brique de la vie 🔬",
+      "keywords": ["cellule", "biologie", "vie"]
+    },
+    {
+      "question": "Pourquoi on utilise des fusées ?",
+      "answer": "Pour envoyer des satellites, des astronautes et du matériel dans l’espace 🚀",
+      "keywords": ["fusée", "espace", "technologie"]
+    },
+    {
+      "question": "C’est quoi une IA générative ?",
+      "answer": "C’est une intelligence artificielle capable de créer du texte, des images ou du son 🎨🤖",
+      "keywords": ["IA", "générative", "technologie"]
+    },
+    {
+      "question": "Pourquoi les abeilles sont importantes ?",
+      "answer": "Parce qu’elles pollinisent les plantes, permettant la production des fruits 🍯🌸",
+      "keywords": ["abeilles", "écologie", "nature"]
+    },
+    {
+      "question": "C’est quoi une voiture électrique ?",
+      "answer": "Une voiture qui fonctionne avec une batterie au lieu d’un moteur à essence ⚡🚗",
+      "keywords": ["voiture", "électrique", "énergie"]
+    }, {
+      "question": "Qui a participé dans ce projet ?",
+      "answer": "Les participants au projet sont Houssem, Nacuer, Mohamed, Hafid",
+      "keywords": ["createur", "participé", "à qui"]
+    },{
+   "question": "Tu peux me donner des conseils pour économiser de l’argent ?",
+   "answer": "Bien sûr 💰! Voici quelques astuces :\n- Évite les achats impulsifs.\n- Note toutes tes dépenses.\n- Compare les prix avant d’acheter.\n- Mets de côté une petite somme chaque mois.\n- Utilise des applications de budget comme ‘Bankin’ ou ‘Tricount’.",
+   "keywords": ["argent", "économie", "budget", "conseils", "épargner"]
+},
+{
+   "question": "C’est quoi une IA (Intelligence Artificielle) ?",
+   "answer": "L’IA, ou Intelligence Artificielle, est une technologie qui permet aux machines d’imiter certaines capacités humaines comme apprendre, raisonner ou comprendre le langage naturel 🧠🤖.",
+   "keywords": ["ia", "intelligence", "artificielle", "machine", "robot"]
+},
+{
+   "question": "Quelle est la différence entre le CPU et le GPU ?",
+   "answer": "Le CPU (processeur) gère les tâches générales de ton ordinateur, tandis que le GPU (carte graphique) est spécialisé dans le traitement d’images et de calculs parallèles 🎮💻.",
+   "keywords": ["cpu", "gpu", "processeur", "graphique", "ordinateur"]
+},
+{
+   "question": "Pourquoi le ciel est bleu ?",
+   "answer": "C’est à cause de la diffusion de la lumière du Soleil par l’atmosphère 🌤️. Les rayons bleus sont diffusés plus que les autres couleurs, ce qui rend le ciel bleu pour nos yeux.",
+   "keywords": ["ciel", "bleu", "atmosphère", "lumière", "diffusion"]
+},
+{
+   "question": "C’est quoi la différence entre HTTP et HTTPS ?",
+   "answer": "HTTPS est une version sécurisée de HTTP 🔒. Le 'S' signifie 'Secure' et indique que les échanges de données sont chiffrés pour protéger ta vie privée.",
+   "keywords": ["http", "https", "sécurité", "internet", "web"]
+},{
+   "question": "Quel est le plus grand pays du monde ?",
+   "answer": "C’est la Russie 🇷🇺 ! Elle couvre plus de 17 millions de km², soit environ un huitième des terres émergées de la planète.",
+   "keywords": ["pays", "monde", "grand", "russie", "surface"]
+},
+{
+   "question": "Quel pays a la plus grande population au monde ?",
+   "answer": "La Chine 🇨🇳, avec plus d’un milliard d’habitants, bien que l’Inde 🇮🇳 la rattrape rapidement.",
+   "keywords": ["population", "pays", "chine", "inde", "monde"]
+},
+{
+   "question": "Quel est le plus petit pays du monde ?",
+   "answer": "C’est le Vatican 🇻🇦 ! Il mesure seulement environ 0,44 km² et se trouve au cœur de Rome.",
+   "keywords": ["vatican", "petit", "monde", "pays"]
+},
+{
+   "question": "Quel est le pays le plus visité au monde ?",
+   "answer": "La France 🇫🇷 est le pays le plus visité au monde grâce à Paris, la Côte d’Azur, la Tour Eiffel et sa gastronomie !",
+   "keywords": ["france", "tourisme", "visité", "voyage", "monde"]
+},
+{
+   "question": "Quel pays est connu comme le pays du Soleil Levant ?",
+   "answer": "C’est le Japon 🇯🇵 ! Son nom signifie littéralement 'l’origine du soleil'.",
+   "keywords": ["japon", "soleil", "levant", "asie", "pays"]
+},
+{
+   "question": "Quel est le pays avec le plus d’îles ?",
+   "answer": "La Suède 🇸🇪 détient le record avec plus de 260 000 îles, dont beaucoup sont inhabitées.",
+   "keywords": ["suède", "îles", "monde", "pays", "record"]
+},
+{
+   "question": "Quel pays est célèbre pour ses pyramides ?",
+   "answer": "L’Égypte 🇪🇬, bien sûr ! Les pyramides de Gizeh sont parmi les merveilles les plus anciennes du monde.",
+   "keywords": ["égypte", "pyramides", "gizeh", "pharaons", "monde"]
+},
+{
+   "question": "Quel est le pays le plus froid du monde ?",
+   "answer": "L’Antarctique 🧊 est le plus froid, mais si l’on parle de pays habité, c’est la Russie 🇷🇺.",
+   "keywords": ["froid", "pays", "antarctique", "russie", "climat"]
+},
+{
+   "question": "Quel est le pays avec le plus de langues parlées ?",
+   "answer": "La Papouasie-Nouvelle-Guinée 🇵🇬 compte plus de 800 langues différentes ! Incroyable diversité linguistique 🗣️.",
+   "keywords": ["langues", "papouasie", "monde", "diversité", "pays"]
+},
+{
+   "question": "Quel pays est connu pour la samba et le carnaval ?",
+   "answer": "Le Brésil 🇧🇷, célèbre pour son carnaval de Rio et ses plages légendaires 🌴.",
+   "keywords": ["brésil", "carnaval", "rio", "samba", "amérique du sud"]
+},
+{
+   "question": "Qui es-tu ?",
+   "answer": "Je suis un simple chatbot appartenant au groupe de première génération, programmé en JavaScript (JS), je m'appuie sur des fichiers pour répondre, où je fais correspondre les questions et réponds.",
+   "keywords": ["qui", "tu est qui", "ton nom"]
+},{
+   "question": "Salut !",
+   "answer": "Salut 😊 Comment vas-tu aujourd’hui ?",
+   "keywords": ["salut", "bonjour", "hey", "coucou"]
+},
+{
+   "question": "Bonjour",
+   "answer": "Bonjour 🌞 J’espère que ta journée se passe bien !",
+   "keywords": ["bonjour", "salut", "matin", "hello"]
+},
+{
+   "question": "Bonsoir",
+   "answer": "Bonsoir 🌙 Prêt à discuter un peu avant de dormir ?",
+   "keywords": ["bonsoir", "soir", "nuit"]
+},
+{
+   "question": "Comment ça va ?",
+   "answer": "Je vais très bien, merci 😄 Et toi, comment tu te sens ?",
+   "keywords": ["ça va", "comment", "bien", "santé"]
+},
+{
+   "question": "Ça va bien merci",
+   "answer": "Super 💪 Je suis content de l’entendre !",
+   "keywords": ["ça va", "merci", "bien"]
+},
+{
+   "question": "Tu vas bien ?",
+   "answer": "Oui, je vais bien 🙏 Et toi, tout roule ?",
+   "keywords": ["tu vas bien", "bien", "comment"]
+},
+{
+   "question": "Au revoir",
+   "answer": "Au revoir 👋 À très bientôt j’espère !",
+   "keywords": ["au revoir", "bye", "ciao", "partir"]
+},
+{
+   "question": "Bonne nuit",
+   "answer": "Bonne nuit 🌙 Fais de beaux rêves !",
+   "keywords": ["bonne nuit", "nuit", "dormir", "rêve"]
+},
+{
+   "question": "Bonne journée",
+   "answer": "Merci 🌼 Toi aussi, passe une excellente journée !",
+   "keywords": ["bonne journée", "jour", "matin"]
+},
+{
+   "question": "Enchanté",
+   "answer": "Enchanté aussi 😄 Ravi de te connaître !",
+   "keywords": ["enchanté", "rencontre", "bonjour"]
+},
+{
+   "question": "Merci",
+   "answer": "De rien 😇 Toujours un plaisir d’aider !",
+   "keywords": ["merci", "gratitude", "remerciement"]
+},
+{
+   "question": "Merci beaucoup",
+   "answer": "Avec grand plaisir 🌟 Tu es toujours le bienvenu !",
+   "keywords": ["merci", "beaucoup", "gentillesse"]
+},
+{
+   "question": "Pardon",
+   "answer": "Pas de souci 😌 On fait tous des erreurs parfois.",
+   "keywords": ["pardon", "désolé", "excuse"]
+},
+{
+   "question": "Bonne soirée",
+   "answer": "Bonne soirée 🌇 Profite bien de ton temps libre !",
+   "keywords": ["bonne soirée", "soirée", "soir"]
+},
+{
+   "question": "Bienvenue",
+   "answer": "Merci 😄 C’est un plaisir d’être ici avec toi !",
+   "keywords": ["bienvenue", "accueil", "salutation"]
+},
+{
+   "question": "Comment tu t’appelles ?",
+   "answer": "Je suis ton assistant virtuel 🤖 Toujours là pour discuter !",
+   "keywords": ["nom", "appelle", "présentation"]
+},
+{
+   "question": "Tu es là ?",
+   "answer": "Oui, toujours là pour toi 👋 Que veux-tu savoir ?",
+   "keywords": ["là", "présent", "disponible"]
+},
+{
+   "question": "Bonne chance",
+   "answer": "Merci 🍀 J’en aurai peut-être besoin haha !",
+   "keywords": ["bonne chance", "encouragement", "motivation"]
+},
+{
+   "question": "À demain",
+   "answer": "À demain 👋 Passe une belle nuit et repose-toi bien !",
+   "keywords": ["demain", "au revoir", "nuit"]
+},
+{
+   "question": "À plus tard",
+   "answer": "À plus 👋 Je serai là quand tu reviendras !",
+   "keywords": ["plus tard", "à plus", "bye"]
+}
+  ]
+}

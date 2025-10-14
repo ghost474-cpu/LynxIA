@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mention lègales</title>
+        <meta charset="UTF-8">
+        <link rel="website icon" type="jpg" href="logo2.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <script src="script.js" defer></script>
+        <script src="chatbot.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/compromise/dist/compromise.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@3.0.0/dist/universal-sentence-encoder.min.js"></script>
+    </head>
+    <body>
+    <button id="chat-toggle">💬</button>
+<div id="chat-box">
+  <div id="chat-header">
+    <span id="titre">Chatbot</span>
+    <button id="reset">↻</button>
+  </div>
+  <div id="chat-body">
+  </div>
+  <div id="chat-input-area">
+    <input type="text" id="chat-input" onkeypress="if(event.key==='Enter') chat()">
+    <button id="chat-send" onclick="chat()">✔</button>
+  </div>
+</div>
+<div id="all-2">
+<h2 id="title-8">1. Introduction:</h2>
+<p id="p-1">Bienvenue sur le site LynxIA. Ce site présente un chatbot ainsi que divers outils basés sur l'intelligence artificielle et l'exploration de données. En accédant à ce site, vous acceptez les conditions d'utilisation ci-dessous. L'objectif est d'offrir une expérience claire, éducative et équitable pour tous les utilisateurs.</p>
+<h2 id="title-8">2. Droits d'auteur:</h2>
+<p id="p-1">Tous droits réservés. ameur.355 2025 ©. Les textes et vidéos publiés sur ce site appartiennent à l'auteur. Ils ne peuvent pas être copiés, modifiés ou redistribués sans autorisation. Les images provenant de sources externes appartiennent à leurs auteurs respectifs.</p>
+<h2 id="title-8">3. Utilisation du site:</h2>
+<p id="p-1">L'utilisateur s'engage à utiliser le site de manière responsable. Les réponses du chatbot sont générées automatiquement et peuvent contenir des erreurs. L'auteur du site ne saurait être tenu responsable des décisions prises sur la base de ces réponses.</p>
+<h2 id="title-8">4. Limite d'utilisation du chatbot:</h2>
+<p id="p-1">Ce chatbot, créé par ameur.355, fonctionne principalement à partir de fichiers locaux. Il répond directement et clairement, sans formules inutiles ni détours. Pour les recherches précises, il utilise une recherche avancée proche de Wikipédia, parfois inexacte. Chaque utilisateur dispose d'un nombre limité de questions, réinitialisé périodiquement pour une utilisation équitable.</p>
+<h2 id="title-8">5. Données et confidentialité:</h2>
+<p id="p-1">Aucune donnée personnelle n'est collectée automatiquement. Les conversations peuvent être utilisées à des fins d'amélioration du service, sans stockage d'informations identifiables.</p>
+<h2 id="title-8">6. Contact:</h2>
+<p id="p-1">Pour toute question ou demande d'autorisation, veuillez contacter : 📧 <a href="mailto:amh141800@gmail.com" target="_blank" style="color: black; text-decoration: unline; text-decoration-style: dotted">amh141800</a> ou via Instagram : <a href="https://www.instagram.com/ameur.355/" target="_blank" style="color: black; text-decoration: unline; text-decoration-style: dotted">ameur.355</a></p>
+</div>
+<footer id="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>À propos</h3>
+      <p>Ce site présente le monde des chatbots, leur évolution, leurs avantages et leurs usages dans différents domaines.</p>
+      <p>Ce chatbot, créé par ameur.355, fonctionne principalement à partir de fichiers locaux. Il répond directement et clairement, sans formules inutiles comme “pour moi” ou autres. Pour les recherches plus précises, il utilise une recherche avancée proche de Wikipédia. Les résultats peuvent toutefois contenir quelques imprécisions.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Liens utiles</h3>
+      <ul>
+        <li><a href="index.html">Menu</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email : <a href="mailto:amh141800@gmail.com" target="_blank">amh141800@gmail.com</a></p>
+    </div>
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ameur.355/" target="_blank"><img src="instagram.png" alt="instagram">instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 ChatBot Project | Tous droits réservés</p>
+  </div>
+</footer>
+</body>
+</html>

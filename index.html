@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LynxIA</title>
+        <link rel="website icon" type="jpg" href="logo2.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <script src="chatbot.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/compromise/dist/compromise.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.10.0/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@3.0.0/dist/universal-sentence-encoder.min.js"></script>
+    </head>
+    <body>
+        <div id="nav-bar">
+        <img src="logo1.png" id="img1">
+        </div>
+        <button id="chat-toggle">💬</button>
+<div id="chat-box">
+  <div id="chat-header">
+    <span id="titre">Chatbot</span>
+    <button id="reset">↻</button>
+  </div>
+  <div id="chat-body">
+  </div>
+  <div id="chat-input-area">
+    <input type="text" id="chat-input" onkeypress="if(event.key==='Enter') chat()">
+    <button id="chat-send" onclick="chat()">✔</button>
+  </div>
+</div>
+<div id="all">
+<h2 id="title-1">Qu'est-ce qu'un chatbot ?</h2>
+<div id="began">
+<img src="bot5.png" id="img3">
+<img src="bot4.png" id="img2">
+<div id="t-1">
+<p id="p-1">Un chatbot est un programme de conversation interactif basé sur des techniques logicielles ou d'intelligence artificielle.
+Il permet à l'utilisateur de communiquer par texte ou voix, d'une manière similaire à une discussion avec un être humain.
+Il sert d'intermédiaire entre les humains et les systèmes numériques, simplifiant l'accès aux informations et aux services sans passer par une interface classique (formulaires, menus, etc.).</p>
+</div>
+</div>
+<h2 id="title-2">L'évolution des chatbots:</h2>
+<li><p id="gen">Première génération (basée sur des règles) : apparue dans les années 1960 (exemple : ELIZA), reposait sur des mots-clés et des règles préprogrammées.</p></li>
+<li><p id="gen">Deuxième génération (NLP + règles) : développée au début d'Internet, surtout dans les services clients en ligne.</p></li>
+<li><p id="gen">Troisième génération (IA et apprentissage profond) : comme ChatGPT ou Bard, capables de comprendre profondément le langage naturel et d'apprendre en continu.</p></li>
+<h2 id="title-3">Types des chatbots:</h2>
+<details>
+  <summary id="first">Chatbots basés sur des règles</summary>
+  <p id="p-2">Les chatbots basés sur des règles (rule-based chatbots) sont des systèmes conversationnels qui fonctionnent à partir de moteurs de règles prédéfinies (rule-based engines).
+Ils utilisent des arbres de décision (decision trees), des expressions régulières (Regex) et des listes de mots-clés pour associer l'entrée de l'utilisateur à une réponse stockée. Leur logique repose sur le principe du matching déterministe : si une condition est remplie (ex. mot-clé détecté), alors une action ou une réponse spécifique est déclenchée. Ils n'ont pas de capacité d'apprentissage automatique (Machine Learning), ce qui les rend efficaces pour des scénarios simples mais limités en compréhension du langage naturel.</p>
+</details>
+<details>
+  <summary id="first">Chatbots intelligents (IA)</summary>
+  <p id="p-2">Ce sont des systèmes de dialogue basés sur l'intelligence artificielle (IA) et le traitement automatique du langage naturel (NLP - Natural Language Processing). Ils utilisent des modèles d'apprentissage automatique (Machine Learning) et parfois des réseaux de neurones profonds (Deep Learning) pour comprendre le sens, le contexte et l'intention de l'utilisateur.
+Grâce à ces technologies, ils offrent une interaction plus flexible, contextuelle et humaine, contrairement aux chatbots à règles fixes.</p>
+</details>
+<details>
+  <summary id="first">Chatbots vocaux (Voice Bots)</summary>
+  <p id="p-2">Ce sont des agents conversationnels basés sur la reconnaissance vocale. Ils utilisent des technologies telles que la reconnaissance automatique de la parole (ASR - Automatic Speech Recognition) et la synthèse vocale (TTS - Text To Speech), combinées à l'intelligence artificielle (IA) et au traitement du langage naturel (NLP), pour comprendre et répondre aux commandes vocales des utilisateurs.
+Des exemples connus incluent Google Assistant, Amazon Alexa et Siri.</p>
+</details>
+<details>
+  <summary id="first">Chatbots spécialisés</summary>
+  <p id="p-2">Ce sont des agents conversationnels conçus pour des domaines spécifiques tels que la santé, l'éducation, la finance ou le service client.
+Ils reposent sur des bases de connaissances spécialisées (Knowledge Bases) et des modèles de traitement du langage naturel (NLP) adaptés à leur contexte métier.
+Grâce à cette spécialisation, ils offrent des réponses précises, contextualisées et pertinentes selon le domaine d'application.</p>
+</details>
+<img src="bo7.jpg" id="img4">
+<h2 id="title-4">Avantages principaux:</h2>
+<li id="p-2-5">Disponibilité 24h/24 et 7j/7.</li>
+<li id="p-2-5">Capacité de gérer des milliers de conversations simultanément.</li>
+<li id="p-2-5">Réduction des coûts opérationnels.</li>
+<li id="p-2-5">Amélioration de l'expérience utilisateur et satisfaction client.</li>
+<li id="p-2-5">Rapidité et efficacité dans la fourniture d'informations.</li>
+<li id="p-m">1- Disponibilité 24h/24 et 7j/7.</li>
+<li id="p-m">2- Capacité de gérer des milliers de conversations simultanément.</li>
+<li id="p-m">3- Réduction des coûts opérationnels.</li>
+<li id="p-m">4- Amélioration de l'expérience utilisateur et satisfaction client.</li>
+<li id="p-m">5- Rapidité et efficacité dans la fourniture d'informations.</li>
+<h2 id="title-4-5">Inconvénients des chatbots:</h2>
+<li id="p-2-5">Compréhension limitée du langage naturel, surtout dans les cas ambigus ou émotionnels.</li>
+<li id="p-2-5">Risque de réponses incorrectes ou hors sujet.</li>
+<li id="p-2-5">Absence d'empathie et de sensibilité humaine.</li>
+<li id="p-2-5">Dépendance à une bonne connexion Internet et à la maintenance technique.</li>
+<li id="p-2-5">Problèmes possibles liés à la confidentialité et à la protection des données personnelles.</li>
+<li id="p-m">1- Compréhension limitée du langage naturel, surtout dans les cas ambigus ou émotionnels.</li>
+<li id="p-m">2- Risque de réponses incorrectes ou hors sujet.</li>
+<li id="p-m">3- Absence d'empathie et de sensibilité humaine.</li>
+<li id="p-m">4- Dépendance à une bonne connexion Internet et à la maintenance technique.</li>
+<li id="p-m">5- Problèmes possibles liés à la confidentialité et à la protection des données personnelles.</li>
+<img src="bo8.jpg" id="img5">
+<h2 id="title-5">Cas d'utilisation pratiques des chatbots:</h2>
+<img src="bot9.png" id="img11">
+<img src="bot6.png" id="img6">
+<ol start="1"><li id="p-3">Commerce et e-commerce :</li></ol>
+<li id="p-2-5">Répondre aux FAQ.</li>
+<li id="p-2-5">Suivre les commandes.</li>
+<li id="p-2-5">Recommander des produits selon les préférences du client.</li>
+<li id="p-m">1- Répondre aux FAQ.</li>
+<li id="p-m">2- Suivre les commandes.</li>
+<li id="p-m">3- Recommander des produits selon les préférences du client.</li>
+<img src="bot7.png" id="img7">
+<ol start="2"><li id="p-3">Santé :</li></ol>
+<li id="p-2-5">Prendre des rendez-vous.</li>
+<li id="p-2-5">Fournir des conseils généraux (sans remplacer un médecin).</li>
+<li id="p-m">1- Prendre des rendez-vous.</li>
+<li id="p-m">2- Fournir des conseils généraux (sans remplacer un médecin).</li>
+<img src="bot3.jpg" id="img8">
+<ol start="3"><li id="p-3">Éducation :</li></ol>
+<li id="p-2-5">Expliquer des cours.</li>
+<li id="p-2-5">Aider les étudiants dans leurs devoirs.</li>
+<li id="p-m">1- Expliquer des cours.</li>
+<li id="p-m">2- Aider les étudiants dans leurs devoirs.</li>
+<img src="bot8.png" id="img9">
+<ol start="4"><li id="p-3">Services publics :</li></ol>
+<li id="p-2-5">Répondre aux demandes des citoyens.</li>
+<li id="p-2-5">Simplifier les démarches administratives.</li>
+<li id="p-m">1- Répondre aux demandes des citoyens.</li>
+<li id="p-m">2- Simplifier les démarches administratives.</li>
+<img src="bot4.jpg" id="img10">
+<ol start="5"><li id="p-3">Divertissement et interaction sociale :</li></ol>
+<li id="p-2-5">Jeux, quiz.</li>
+<li id="p-2-5">Chatbots de compagnie.</li>
+<li id="p-m">1- Jeux, quiz.</li>
+<li id="p-m">2- Chatbots de compagnie.</li>
+<h2 id="title-6">L'avenir des chatbots:</h2>
+<li id="p-2-5">Intégration renforcée avec l'IA générative (Generative AI).</li>
+<li id="p-2-5">Interactions plus réalistes, vocales et textuelles.</li>
+<li id="p-2-5">Connexion avec la réalité augmentée et le métavers.</li>
+<li id="p-2-5">Adoption croissante dans les secteurs médicaux, juridiques et éducatifs.</li>
+<li id="p-m">1- Intégration renforcée avec l'IA générative (Generative AI).</li>
+<li id="p-m">2- Interactions plus réalistes, vocales et textuelles.</li>
+<li id="p-m">3- Connexion avec la réalité augmentée et le métavers.</li>
+<li id="p-m">4- Adoption croissante dans les secteurs médicaux, juridiques et éducatifs.</li>
+<h2 id="title-7">Un video qui presente le chatbot:</h2>
+<p id="p-2">Cette vidéo, générée grâce à l'intelligence artificielle, illustre de manière claire et dynamique le rôle des chatbots dans notre quotidien.
+Elle présente leurs différentes utilisations du service client à l'éducation et montre comment ils transforment la communication entre les humains et les machines.</p>
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/JI7zj_FeQFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<h2 id="title-8">L'essentiel à retenir:</h2>
+<p id="p-2">Les chatbots représentent aujourd'hui une avancée majeure dans la communication homme-machine.
+Ils permettent d'automatiser des tâches répétitives, de faciliter l'accès à l'information et d'améliorer l'expérience utilisateur.
+Cependant, malgré leurs nombreux avantages, ils ne remplacent pas encore totalement l'humain, notamment dans les situations complexes ou émotionnelles.
+L'avenir des chatbots réside dans l'amélioration de la compréhension contextuelle et émotionnelle grâce à l'intelligence artificielle.</p>
+</div>
+<footer id="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>À propos</h3>
+      <p>Ce site présente le monde des chatbots, leur évolution, leurs avantages et leurs usages dans différents domaines.</p>
+      <p>Ce chatbot, créé par ameur.355, fonctionne principalement à partir de fichiers locaux. Il répond directement et clairement, sans formules inutiles comme “pour moi” ou autres. Pour les recherches plus précises, il utilise une recherche avancée proche de Wikipédia. Les résultats peuvent toutefois contenir quelques imprécisions.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Liens utiles</h3>
+      <ul>
+        <li><a href="privacy.html">Mentions légales</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Contact</h3>
+      <p>Email : <a href="mailto:amh141800@gmail.com" target="_blank">amh141800@gmail.com</a></p>
+    </div>
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/ameur.355/" target="_blank"><img src="instagram.png" alt="instagram">instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 ChatBot Project | Tous droits réservés</p>
+  </div>
+</footer>
+</body>
+</html>
