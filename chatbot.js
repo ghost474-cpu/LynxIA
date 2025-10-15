@@ -1,15 +1,18 @@
-const MODEL_URL = "https://lynxia-server-1.onrender.com/";
+// رابط السيرفر على Render
+const MODEL_URL = "https://lynxia-server-1.onrender.com/chat";
 const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true"; // Alger par défaut
 
 async function getAIReply(prompt) {
   try {
-    // Vérification spéciale pour certaines questions
-    if (prompt.toLowerCase().includes("qui a participe dans le projet") || prompt.toLowerCase().includes("participants")) {
-      return "Les participants au projet sont: Houssem, Nacuer, Younes, Hafid.";
+    // 🔹 بعض الإجابات المبرمجة يدويًا
+    const lower = prompt.toLowerCase();
+
+    if (lower.includes("qui a participe dans le projet") || lower.includes("participants")) {
+      return "Les participants au projet sont: Houssem, Nacuer, Younes et Hafid.";
     }
 
-    // Si l'utilisateur demande le temps
-    if (prompt.toLowerCase().includes("météo") || prompt.toLowerCase().includes("temps")) {
+    // 🔹 سؤال عن الطقس
+    if (lower.includes("météo") || lower.includes("temps")) {
       const meteoRes = await fetch(WEATHER_API);
       const meteoData = await meteoRes.json();
       const temp = meteoData.current_weather.temperature;
@@ -17,42 +20,45 @@ async function getAIReply(prompt) {
       return `🌤️ La température actuelle à Alger est de ${temp}°C avec un vent de ${vent} km/h.`;
     }
 
-    // Si l'utilisateur demande l'heure
-    if (prompt.toLowerCase().includes("heure") || prompt.toLowerCase().includes("temps actuel")) {
+    // 🔹 سؤال عن الساعة
+    if (lower.includes("heure") || lower.includes("temps actuel")) {
       const now = new Date();
       return `🕒 Il est actuellement ${now.getHours()}h${now.getMinutes().toString().padStart(2, "0")}.`;
     }
 
-    // Requête vers OpenRouter
-    const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+    // 🔹 الآن نرسل الطلب إلى السيرفر (بدون مفتاح API في المتصفح!)
+    const res = await fetch(MODEL_URL, {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${API_KEY}`,
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({
-        model: "gpt-3.5-turbo",
-        messages: [
-          { role: "system", content: "Tu es un assistant utile et amical parlant français." },
-          { role: "user", content: prompt }
-        ]
-      })
+      body: JSON.stringify({ prompt })
     });
 
-    const data = await res.json();
-    console.log("Résultat brut:", data);
+    if (!res.ok) {
+      console.error("Erreur serveur:", res.status);
+      return "⚠️ Le serveur n'a pas répondu correctement.";
+    }
 
+    const data = await res.json();
+    console.log("Réponse du serveur:", data);
+
+    // 🔹 نتوقع من السيرفر أن يعيد { reply: "..." }
+    if (data.reply) return data.reply;
+
+    // 🔹 إذا أعاد شكل مختلف، نحاول استخراجه
     if (data.choices && data.choices[0]?.message?.content) {
       return data.choices[0].message.content;
-    } else {
-      return "❌ Le modèle n'a pas renvoyé de texte.";
     }
+
+    return "❌ Le modèle n'a pas renvoyé de texte.";
   } catch (e) {
     console.error("Erreur:", e);
     return "⚠️ Erreur de connexion ou de format.";
   }
 }
 
+// 🧠 دالة المحادثة
 async function chat() {
   const input = document.getElementById("chat-input");
   const chatLog = document.getElementById("chat-body");
@@ -69,10 +75,12 @@ async function chat() {
   chatLog.scrollTop = chatLog.scrollHeight;
 }
 
+// ⚙️ الأحداث
 document.getElementById("send").addEventListener("click", chat);
 document.getElementById("chat-input").addEventListener("keypress", e => { 
   if (e.key === "Enter") chat(); 
 });
+
 
 
 
