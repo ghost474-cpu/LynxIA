@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "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";
 const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true"; // Alger par défaut
 
 async function getAIReply(prompt) {
@@ -73,4 +73,5 @@ document.getElementById("send").addEventListener("click", chat);
 document.getElementById("chat-input").addEventListener("keypress", e => { 
   if (e.key === "Enter") chat(); 
 });
+
 
