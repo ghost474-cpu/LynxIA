@@ -1,114 +1,55 @@
-const stopwords = [
-  "pour", "moi", "toi", "le", "les", "un", "une", "de", "du", "des", 
-  "et", "en", "au", "aux", "que", "qui", "sur", "dans", "avec", "ce", "cette",
-  "mais", "ou", "par", "il", "elle", "on", "ne", "pas", "la"
-];
+const API_KEY = "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";
+const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true"; // Alger par défaut
 
-async function loadData() {
-  window.dataset = [];
+async function getAIReply(prompt) {
   try {
-    const data = await fetch("conservation.json").then(res => res.json());
-    window.dataset = data.dataset || data.intents || [];
-  } catch (e) {}
-}
-
-function clean(text) {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[’]/g, "'")
-    .replace(/œ/g, "oe")
-    .replace(/æ/g, "ae")
-    .replace(/[^a-z0-9' ]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .split(" ")
-    .filter(word => !stopwords.includes(word))
-    .join(" ");
-}
-
-function getBotReply(userInput) {
-  const cleanedInput = clean(userInput);
-  let matches = [];
-  window.dataset.forEach(item => {
-    const questions = item.question || item.questions || [];
-    const answers = item.answer || item.answers || [];
-    const qList = Array.isArray(questions) ? questions : [questions];
-    const aList = Array.isArray(answers) ? answers : [answers];
-    qList.forEach(q => {
-      const cq = clean(q);
-      if (cleanedInput.includes(cq) || cq.includes(cleanedInput)) {
-        matches = matches.concat(aList);
-      }
-    });
-  });
-  if (matches.length > 0) return matches[Math.floor(Math.random() * matches.length)];
-  return null;
-}
-
-function elizaReply(userInput) {
-  const cleaned = clean(userInput);
-  const reflections = { "je":"vous","moi":"vous","mon":"votre","mes":"vos","tu":"je","toi":"moi","ton":"mon","tes":"mes" };
-  const reflected = cleaned.split(" ").map(w => reflections[w] || w).join(" ");
-  if(cleaned.includes("je me sens")) return `Pourquoi vous sentez-vous ${reflected.replace("je me sens","").trim()} ?`;
-  if(cleaned.includes("je suis")) return `Depuis combien de temps êtes-vous ${reflected.replace("je suis","").trim()} ?`;
-  return null;
-}
-
-function timeReply(userInput) {
-  const text = clean(userInput);
-  if(text.includes("heure") || text.includes("temps")) {
-    const now = new Date();
-    const hours = now.getHours();
-    const minutes = now.getMinutes().toString().padStart(2,"0");
-    return `Il est actuellement ${hours}h${minutes} ⏰`;
-  }
-  return null;
-}
-
-function calcReply(userInput) {
-  try {
-    if(/[\d\+\-\*\/\(\)\.]/.test(userInput)) {
-      const result = Function(`"use strict"; return (${userInput})`)();
-      if(!isNaN(result)) return `Résultat: ${result}`;
+    // Vérification spéciale pour certaines questions
+    if (prompt.toLowerCase().includes("qui a participe dans le projet") || prompt.toLowerCase().includes("participants")) {
+      return "Les participants au projet sont: Houssem, Nacuer, Younes, Hafid.";
     }
-  } catch(e) {}
-  return null;
-}
 
-async function searchDuckDuckGo(query) {
-  const url = `https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json&no_html=1&kl=fr-fr`;
-  const res = await fetch(url);
-  const data = await res.json();
-  return data.AbstractText || null;
-}
+    // Si l'utilisateur demande le temps
+    if (prompt.toLowerCase().includes("météo") || prompt.toLowerCase().includes("temps")) {
+      const meteoRes = await fetch(WEATHER_API);
+      const meteoData = await meteoRes.json();
+      const temp = meteoData.current_weather.temperature;
+      const vent = meteoData.current_weather.windspeed;
+      return `🌤️ La température actuelle à Alger est de ${temp}°C avec un vent de ${vent} km/h.`;
+    }
 
-async function searchWikipedia(query) {
-  const url = `https://fr.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(query)}`;
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  const data = await res.json();
-  return data.extract || null;
-}
+    // Si l'utilisateur demande l'heure
+    if (prompt.toLowerCase().includes("heure") || prompt.toLowerCase().includes("temps actuel")) {
+      const now = new Date();
+      return `🕒 Il est actuellement ${now.getHours()}h${now.getMinutes().toString().padStart(2, "0")}.`;
+    }
 
-async function smartSearch(query) {
-  let result = await searchWikipedia(query);
-  if (result) return result;
-  result = await searchDuckDuckGo(query);
-  if (result) return result;
-  return "❌ Je n'ai rien trouvé 😅";
-}
+    // Requête vers OpenRouter
+    const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${API_KEY}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: "gpt-3.5-turbo",
+        messages: [
+          { role: "system", content: "Tu es un assistant utile et amical parlant français." },
+          { role: "user", content: prompt }
+        ]
+      })
+    });
 
-async function getWeather(city) {
-  try {
-    const url = `https://wttr.in/${encodeURIComponent(city)}?format=j1`;
-    const res = await fetch(url);
     const data = await res.json();
-    const current = data.current_condition[0];
-    return `🌦️ Météo à ${city}: ${current.temp_C}°C, ${current.weatherDesc[0].value}, humidité ${current.humidity}%`;
-  } catch(e) {
-    return "❌ Impossible d'obtenir la météo.";
+    console.log("Résultat brut:", data);
+
+    if (data.choices && data.choices[0]?.message?.content) {
+      return data.choices[0].message.content;
+    } else {
+      return "❌ Le modèle n'a pas renvoyé de texte.";
+    }
+  } catch (e) {
+    console.error("Erreur:", e);
+    return "⚠️ Erreur de connexion ou de format.";
   }
 }
 
@@ -117,29 +58,18 @@ async function chat() {
   const chatLog = document.getElementById("chat-body");
   const userInput = input.value.trim();
   if (!userInput) return;
+
   chatLog.innerHTML += `<p><b>Vous:</b> ${userInput}</p>`;
-  if (!window.dataset || window.dataset.length === 0) await loadData();
-  let reply = calcReply(userInput);
-  if(!reply) reply = timeReply(userInput);
-  if(!reply) reply = getBotReply(userInput);
-  if(!reply) reply = elizaReply(userInput);
-  if(!reply && (userInput.toLowerCase().startsWith("chercher ") || userInput.toLowerCase().startsWith("recherche ") || userInput.toLowerCase().startsWith("trouver "))) {
-    const query = userInput.replace(/^chercher\s+|^recherche\s+|^trouver\s+/i, "");
-    reply = await smartSearch(query);
-  }
-  if(!reply && (userInput.toLowerCase().includes("meteo") || userInput.toLowerCase().includes("temps a"))) {
-    const city = userInput.split(" ").pop();
-    reply = await getWeather(city);
-  }
-  if(!reply) reply = "Je suis un simple robot. Je ne comprends pas le langage naturel. Je me base uniquement sur les données et les correspondances. Je peux calculer et vous donner du temps. Si vous souhaitez quelque chose, écrivez-le directement et je vous répondrai. Pour une recherche efficace sur Wikipédia, vous pouvez utiliser «trouver» ou «chercher» ou «recherche» avec ce que vous voulez directement. Merci de votre compréhension.";
-  chatLog.innerHTML += `<p><b>Bot:</b> ${reply}</p>`;
   input.value = "";
+  chatLog.innerHTML += `<p><i>🤖 Le modèle réfléchit...</i></p>`;
+  chatLog.scrollTop = chatLog.scrollHeight;
+
+  const reply = await getAIReply(userInput);
+  chatLog.innerHTML += `<p><b>Bot:</b> ${reply}</p>`;
   chatLog.scrollTop = chatLog.scrollHeight;
 }
 
-document.getElementById("reset").addEventListener("click", () => {
-  document.getElementById("chat-body").innerHTML = "";
-});
 document.getElementById("send").addEventListener("click", chat);
-document.getElementById("chat-input").addEventListener("keypress", e => { if(e.key === "Enter") chat(); });
-loadData();
+document.getElementById("chat-input").addEventListener("keypress", e => { 
+  if (e.key === "Enter") chat(); 
+});
