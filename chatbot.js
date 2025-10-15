@@ -73,3 +73,4 @@ document.getElementById("send").addEventListener("click", chat);
 document.getElementById("chat-input").addEventListener("keypress", e => { 
   if (e.key === "Enter") chat(); 
 });
+
