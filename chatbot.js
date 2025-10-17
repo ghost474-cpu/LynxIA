@@ -33,7 +33,7 @@ async function getAIReply(prompt) {
     if (data.reply) return data.reply;
     if (data.choices && data.choices[0]?.message?.content) return data.choices[0].message.content;
     return "❌ Le modèle n'a pas renvoyé de texte.";
-  } catch (e) {
+  } catch {
     return "⚠️ Erreur de connexion ou de format.";
   }
 }
@@ -48,12 +48,15 @@ async function chat() {
   input.value = "";
 
   const thinking = document.createElement("p");
+  thinking.id = "thinking";
   thinking.innerHTML = "<i>🤖 Le modèle réfléchit...</i>";
   chatLog.appendChild(thinking);
   chatLog.scrollTop = chatLog.scrollHeight;
 
   const reply = await getAIReply(userInput);
-  thinking.remove();
+
+  const thinkingElem = document.getElementById("thinking");
+  if (thinkingElem) thinkingElem.remove();
 
   chatLog.innerHTML += `<p><b>Bot:</b> ${reply}</p>`;
   chatLog.scrollTop = chatLog.scrollHeight;
