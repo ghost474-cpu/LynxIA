@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ghost474-cpu.github.io/LynxIA/sitemap.xml
