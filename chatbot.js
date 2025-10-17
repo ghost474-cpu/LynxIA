@@ -1,12 +1,15 @@
-// رابط السيرفر على Render
+// 🌐 رابط السيرفر على Render (بدّله إذا تغير الاسم)
 const MODEL_URL = "https://lynxia-server.onrender.com/chat";
-const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true"; // Alger par défaut
 
+// 🌦️ API الطقس
+const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true"; // Alger
+
+// 🧠 دالة جلب الرد من السيرفر
 async function getAIReply(prompt) {
   try {
-    // 🔹 بعض الإجابات المبرمجة يدويًا
     const lower = prompt.toLowerCase();
 
+    // 🔹 إجابات ثابتة
     if (lower.includes("qui a participe dans le projet") || lower.includes("participants")) {
       return "Les participants au projet sont: Houssem, Nacuer, Younes et Hafid.";
     }
@@ -26,39 +29,39 @@ async function getAIReply(prompt) {
       return `🕒 Il est actuellement ${now.getHours()}h${now.getMinutes().toString().padStart(2, "0")}.`;
     }
 
-    // 🔹 الآن نرسل الطلب إلى السيرفر (بدون مفتاح API في المتصفح!)
+    // 🔹 نرسل الطلب إلى السيرفر
     const res = await fetch(MODEL_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
+      // ⚠️ تأكد أن السيرفر يتوقع { prompt }
       body: JSON.stringify({ prompt })
     });
 
+    // 🧩 التحقق من الرد
     if (!res.ok) {
-      console.error("Erreur serveur:", res.status);
-      return "⚠️ Le serveur n'a pas répondu correctement.";
+      console.error("Erreur serveur:", res.status, await res.text());
+      return "⚠️ Le serveur n'a pas répondu correctement (erreur " + res.status + ").";
     }
 
     const data = await res.json();
     console.log("Réponse du serveur:", data);
 
-    // 🔹 نتوقع من السيرفر أن يعيد { reply: "..." }
     if (data.reply) return data.reply;
 
-    // 🔹 إذا أعاد شكل مختلف، نحاول استخراجه
     if (data.choices && data.choices[0]?.message?.content) {
       return data.choices[0].message.content;
     }
 
     return "❌ Le modèle n'a pas renvoyé de texte.";
   } catch (e) {
-    console.error("Erreur:", e);
-    return "⚠️ Erreur de connexion ou de format.";
+    console.error("Erreur de connexion ou de format:", e);
+    return "⚠️ Erreur de connexion ou de format (le serveur est peut-être hors ligne).";
   }
 }
 
-// 🧠 دالة المحادثة
+// 💬 دالة المحادثة
 async function chat() {
   const input = document.getElementById("chat-input");
   const chatLog = document.getElementById("chat-body");
@@ -77,14 +80,6 @@ async function chat() {
 
 // ⚙️ الأحداث
 document.getElementById("send").addEventListener("click", chat);
-document.getElementById("chat-input").addEventListener("keypress", e => { 
-  if (e.key === "Enter") chat(); 
+document.getElementById("chat-input").addEventListener("keypress", e => {
+  if (e.key === "Enter") chat();
 });
-
-
-
-
-
-
-
-
