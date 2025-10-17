@@ -1,5 +1,5 @@
 // رابط السيرفر على Render
-const MODEL_URL = "https://lynxia-server.onrender.com//chat";
+const MODEL_URL = "https://lynxia-server.onrender.com/chat";
 const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true"; // Alger par défaut
 
 async function getAIReply(prompt) {
@@ -80,6 +80,7 @@ document.getElementById("send").addEventListener("click", chat);
 document.getElementById("chat-input").addEventListener("keypress", e => { 
   if (e.key === "Enter") chat(); 
 });
+
 
 
 
