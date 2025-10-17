@@ -1,22 +1,53 @@
 const MODEL_URL = "https://lynxia-server.onrender.com/chat";
-const WEATHER_API = "https://api.open-meteo.com/v1/forecast?latitude=36.75&longitude=3.06&current_weather=true";
+const DEFAULT_LAT = 36.75; 
+const DEFAULT_LON = 3.06;
+
+async function getWeather(city = "Alger") {
+  try {
+    const normalize = str => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    city = normalize(city);
+
+    const cities = {
+      alger: { lat: 36.75, lon: 3.06 },
+      oran: { lat: 35.7, lon: -0.63 },
+      constantine: { lat: 36.36, lon: 6.61 },
+      bejaia: { lat: 36.75, lon: 5.07 },
+      tlemcen: { lat: 34.88, lon: -1.32 },
+      annaba: { lat: 36.9, lon: 7.76 },
+      setif: { lat: 36.19, lon: 5.41 }
+    };
+
+    const key = normalize(city).toLowerCase();
+    const { lat, lon } = cities[key] || { lat: DEFAULT_LAT, lon: DEFAULT_LON };
+
+    const res = await fetch(
+      `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`
+    );
+    const data = await res.json();
+
+    const temp = data.current_weather.temperature;
+    const vent = data.current_weather.windspeed;
+    return `🌤️ La température actuelle à ${city} est de ${temp}°C avec un vent de ${vent} km/h.`;
+  } catch {
+    return `⚠️ Impossible d'obtenir la météo pour ${city}.`;
+  }
+}
 
 async function getAIReply(prompt) {
   try {
     const lower = prompt.toLowerCase();
+    const normalize = str => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
-    if (lower.includes("qui a participe dans le projet") || lower.includes("participants"))
+    if (normalize(lower).includes("qui a participe") || lower.includes("participants"))
       return "Les participants au projet sont: Houssem, Nacuer, Younes et Hafid.";
 
-    if (lower.includes("météo") || lower.includes("temps")) {
-      const meteoRes = await fetch(WEATHER_API);
-      const meteoData = await meteoRes.json();
-      const temp = meteoData.current_weather.temperature;
-      const vent = meteoData.current_weather.windspeed;
-      return `🌤️ La température actuelle à Alger est de ${temp}°C avec un vent de ${vent} km/h.`;
+    if (normalize(lower).includes("meteo") || normalize(lower).includes("temps")) {
+      const parts = lower.split(" ");
+      const city = parts.length > 1 ? parts.slice(1).join(" ") : "Alger";
+      return await getWeather(city);
     }
 
-    if (lower.includes("heure") || lower.includes("temps actuel")) {
+    if (normalize(lower).includes("heure") || normalize(lower).includes("temps actuel")) {
       const now = new Date();
       return `🕒 Il est actuellement ${now.getHours()}h${now.getMinutes().toString().padStart(2, "0")}.`;
     }
