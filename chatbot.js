@@ -93,7 +93,7 @@ async function chat() {
   chatLog.scrollTop = chatLog.scrollHeight;
 }
 
-document.getElementById("send").addEventListener("click", chat);
+document.getElementById("chat-send").addEventListener("click", chat);
 document.getElementById("chat-input").addEventListener("keypress", e => { 
   if (e.key === "Enter") chat(); 
 });
@@ -101,3 +101,4 @@ document.getElementById("chat-input").addEventListener("keypress", e => {
 document.getElementById("reset").addEventListener("click", () => {
   document.getElementById("chat-body").innerHTML = "";
 });
+
